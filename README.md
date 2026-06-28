@@ -174,10 +174,12 @@ Each entry reports
 interval candidate filtering time + interval multiplicity formula time
 ```
 
-The candidate-filtering time includes the layer-support computation required by
-the selected socle/radical filters.  The timings were measured in a single local
-run on 2026-06-29 on a Mac Studio with an Apple M1 Max chip, 10 CPU cores, 32 GB
-memory, and macOS 26.4.1.
+All rows use the `crt_1` candidate criterion from Section 3.3 of **[2]** as the
+baseline interval candidate filter.  The socle-layer and radical-layer filters
+are additional filters applied on top of this baseline.  The candidate-filtering
+time includes the layer-support computation required by the selected additional
+filters.  The timings were measured in a single local run on 2026-06-29 on a Mac
+Studio with an Apple M1 Max chip, 10 CPU cores, 32 GB memory, and macOS 26.4.1.
 
 Benchmark data:
 
@@ -202,14 +204,14 @@ Benchmark data:
     `outputs/resolution_computation/chromatic_four_circles_500pts_function.alpha.scc2020.finite_grid.injective_coresolution.txt`
   - compressed 2D grid: `1870 x 2`, with grades from `(0, 0)` to `(1869, 1)`
 
-| Data set | Filter configuration | Candidate filtering | Formula evaluation | Generated candidates | Retained candidates | Nonzero multiplicities |
+| Data set | Additional filter configuration | Candidate filtering | Formula evaluation | Generated candidates | Retained candidates | Nonzero multiplicities |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Two circles | Socle-layer filter enabled | 5.0s | 0.02s | 3,471 | 76 | 63 |
 | Two circles | Socle-layer + radical-layer filters enabled | 17.0s | 0.02s | 3,471 | 70 | 63 |
-| Two circles | Socle-layer filter disabled | 0.2s | 0.06s | 3,471 | 153 | 63 |
+| Two circles | Socle-layer and radical-layer filters disabled | 0.2s | 0.06s | 3,471 | 153 | 63 |
 | Chromatic four circles | Socle-layer filter enabled | 5m21.5s | 17.0s | 704,810 | 7,991 | 393 |
 | Chromatic four circles | Socle-layer + radical-layer filters enabled | 4m45.0s | 2.6s | 704,810 | 1,530 | 393 |
-| Chromatic four circles | Socle-layer filter disabled | 45.5s | 12m52.9s | 704,810 | 333,146 | 393 |
+| Chromatic four circles | Socle-layer and radical-layer filters disabled | 45.5s | 12m52.9s | 704,810 | 333,146 | 393 |
 
 The following filtration-based invariants are planned future work:
 
