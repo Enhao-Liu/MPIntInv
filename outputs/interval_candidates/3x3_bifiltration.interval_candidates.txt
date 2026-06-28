@@ -1,0 +1,9 @@
+# finite_grid_interval_candidates
+# projective_resolution: outputs/resolution_computation/3x3_bifiltration.finite_grid.projective_resolution.txt
+# injective_coresolution: outputs/resolution_computation/3x3_bifiltration.finite_grid.injective_coresolution.txt
+# grid min: 0 0
+# grid max: 2 2
+# criterion: crt1_2d
+# generation_mode: support_antichains
+# generated_intervals: 4
+# retained_intervals: 0

@@ -1,0 +1,43 @@
+# scc2020 file for the 3x3 bifiltration in 3x3_bifiltration (1).pdf
+# Coordinates are written as x y, matching the horizontal and vertical axes.
+# Coefficients are in GF(2), so boundary signs are omitted.
+scc2020
+2
+3 7 5
+--field GF(2)
+
+# M1: 2-simplices
+# 1 ABC, grade (2,1), boundary AB + AC + BC
+2 1 ; 1 2 5
+# 2 BCD, grade (1,2), boundary BD + CD + BC
+1 2 ; 3 4 5
+# 3 CDE, grade (2,2), boundary CD + CE + DE
+2 2 ; 4 6 7
+
+# M2: 1-simplices
+# 1 AB
+0 0 ; 1 2
+# 2 AC
+0 0 ; 1 3
+# 3 BD
+0 0 ; 2 4
+# 4 CD
+0 0 ; 3 4
+# 5 BC
+1 1 ; 2 3
+# 6 CE
+2 2 ; 3 5
+# 7 DE
+2 2 ; 4 5
+
+# M3: 0-simplices, optional final grade block
+# 1 A
+0 0
+# 2 B
+0 0
+# 3 C
+0 0
+# 4 D
+0 0
+# 5 E
+2 0

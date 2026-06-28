@@ -1,0 +1,639 @@
+# finite_grid_interval_multiplicities
+# source_kind: projective_presentation
+# source_path: outputs/resolution_computation/two_circles_200pts_knn_function.alpha.scc2020.finite_grid.projective_resolution.txt
+# grid min: 0 0
+# grid max: 642 199
+# candidate_intervals: 70
+# nonzero_intervals: 63
+# skipped: False
+# message: Computed multiplicities for 70 interval candidates; 63 have nonzero multiplicity.
+
+interval 1
+multiplicity: 1
+size: 107
+src: (16, 93)
+snk: (16, 199)
+src_1_circ: -
+src_uuset: (17, 93)
+snk_1_circ: -
+snk_ddset: (15, 199) (16, 92)
+
+interval 2
+multiplicity: 1
+size: 191
+src: (45, 9)
+snk: (45, 199)
+src_1_circ: -
+src_uuset: (46, 9)
+snk_1_circ: -
+snk_ddset: (44, 199) (45, 8)
+
+interval 3
+multiplicity: 1
+size: 780
+src: (47, 5)
+snk: (50, 199)
+src_1_circ: -
+src_uuset: (51, 5)
+snk_1_circ: -
+snk_ddset: (46, 199) (50, 4)
+
+interval 4
+multiplicity: 1
+size: 181
+src: (48, 19)
+snk: (48, 199)
+src_1_circ: -
+src_uuset: (49, 19)
+snk_1_circ: -
+snk_ddset: (47, 199) (48, 18)
+
+interval 5
+multiplicity: 1
+size: 182
+src: (69, 18)
+snk: (69, 199)
+src_1_circ: -
+src_uuset: (70, 18)
+snk_1_circ: -
+snk_ddset: (68, 199) (69, 17)
+
+interval 6
+multiplicity: 1
+size: 504
+src: (87, 74)
+snk: (90, 199)
+src_1_circ: -
+src_uuset: (91, 74)
+snk_1_circ: -
+snk_ddset: (86, 199) (90, 73)
+
+interval 7
+multiplicity: 1
+size: 546
+src: (90, 18)
+snk: (92, 199)
+src_1_circ: -
+src_uuset: (93, 18)
+snk_1_circ: -
+snk_ddset: (89, 199) (92, 17)
+
+interval 8
+multiplicity: 1
+size: 270
+src: (103, 65)
+snk: (104, 199)
+src_1_circ: -
+src_uuset: (105, 65)
+snk_1_circ: -
+snk_ddset: (102, 199) (104, 64)
+
+interval 9
+multiplicity: 1
+size: 770
+src: (104, 123)
+snk: (113, 199)
+src_1_circ: -
+src_uuset: (114, 123)
+snk_1_circ: -
+snk_ddset: (103, 199) (113, 122)
+
+interval 10
+multiplicity: 1
+size: 396
+src: (119, 68)
+snk: (121, 199)
+src_1_circ: -
+src_uuset: (122, 68)
+snk_1_circ: -
+snk_ddset: (118, 199) (121, 67)
+
+interval 11
+multiplicity: 1
+size: 151
+src: (124, 49)
+snk: (124, 199)
+src_1_circ: -
+src_uuset: (125, 49)
+snk_1_circ: -
+snk_ddset: (123, 199) (124, 48)
+
+interval 12
+multiplicity: 1
+size: 744
+src: (145, 76)
+snk: (150, 199)
+src_1_circ: -
+src_uuset: (151, 76)
+snk_1_circ: -
+snk_ddset: (144, 199) (150, 75)
+
+interval 13
+multiplicity: 1
+size: 1125
+src: (156, 75)
+snk: (164, 199)
+src_1_circ: -
+src_uuset: (165, 75)
+snk_1_circ: -
+snk_ddset: (155, 199) (164, 74)
+
+interval 14
+multiplicity: 1
+size: 90
+src: (163, 170)
+snk: (165, 199)
+src_1_circ: -
+src_uuset: (166, 170)
+snk_1_circ: -
+snk_ddset: (162, 199) (165, 169)
+
+interval 15
+multiplicity: 1
+size: 5538
+src: (164, 58)
+snk: (202, 199)
+src_1_circ: -
+src_uuset: (203, 58)
+snk_1_circ: -
+snk_ddset: (163, 199) (202, 57)
+
+interval 16
+multiplicity: 1
+size: 318
+src: (167, 41)
+snk: (168, 199)
+src_1_circ: -
+src_uuset: (169, 41)
+snk_1_circ: -
+snk_ddset: (166, 199) (168, 40)
+
+interval 17
+multiplicity: 1
+size: 4212
+src: (172, 44)
+snk: (198, 199)
+src_1_circ: -
+src_uuset: (199, 44)
+snk_1_circ: -
+snk_ddset: (171, 199) (198, 43)
+
+interval 18
+multiplicity: 1
+size: 1200
+src: (175, 125)
+snk: (190, 199)
+src_1_circ: -
+src_uuset: (191, 125)
+snk_1_circ: -
+snk_ddset: (174, 199) (190, 124)
+
+interval 19
+multiplicity: 1
+size: 492
+src: (178, 36)
+snk: (180, 199)
+src_1_circ: -
+src_uuset: (181, 36)
+snk_1_circ: -
+snk_ddset: (177, 199) (180, 35)
+
+interval 20
+multiplicity: 1
+size: 628
+src: (185, 43)
+snk: (188, 199)
+src_1_circ: -
+src_uuset: (189, 43)
+snk_1_circ: -
+snk_ddset: (184, 199) (188, 42)
+
+interval 21
+multiplicity: 1
+size: 1140
+src: (201, 162)
+snk: (230, 199)
+src_1_circ: -
+src_uuset: (231, 162)
+snk_1_circ: -
+snk_ddset: (200, 199) (230, 161)
+
+interval 22
+multiplicity: 1
+size: 3552
+src: (206, 89)
+snk: (237, 199)
+src_1_circ: -
+src_uuset: (238, 89)
+snk_1_circ: -
+snk_ddset: (205, 199) (237, 88)
+
+interval 23
+multiplicity: 1
+size: 180
+src: (209, 20)
+snk: (209, 199)
+src_1_circ: -
+src_uuset: (210, 20)
+snk_1_circ: -
+snk_ddset: (208, 199) (209, 19)
+
+interval 24
+multiplicity: 1
+size: 522
+src: (211, 26)
+snk: (213, 199)
+src_1_circ: -
+src_uuset: (214, 26)
+snk_1_circ: -
+snk_ddset: (210, 199) (213, 25)
+
+interval 25
+multiplicity: 1
+size: 1036
+src: (217, 52)
+snk: (223, 199)
+src_1_circ: -
+src_uuset: (224, 52)
+snk_1_circ: -
+snk_ddset: (216, 199) (223, 51)
+
+interval 26
+multiplicity: 1
+size: 144
+src: (219, 56)
+snk: (219, 199)
+src_1_circ: -
+src_uuset: (220, 56)
+snk_1_circ: -
+snk_ddset: (218, 199) (219, 55)
+
+interval 27
+multiplicity: 1
+size: 3895
+src: (241, 105)
+snk: (281, 199)
+src_1_circ: -
+src_uuset: (282, 105)
+snk_1_circ: -
+snk_ddset: (240, 199) (281, 104)
+
+interval 28
+multiplicity: 1
+size: 876
+src: (242, 54)
+snk: (247, 199)
+src_1_circ: -
+src_uuset: (248, 54)
+snk_1_circ: -
+snk_ddset: (241, 199) (247, 53)
+
+interval 29
+multiplicity: 1
+size: 1476
+src: (243, 118)
+snk: (260, 199)
+src_1_circ: -
+src_uuset: (261, 118)
+snk_1_circ: -
+snk_ddset: (242, 199) (260, 117)
+
+interval 30
+multiplicity: 1
+size: 168
+src: (244, 32)
+snk: (244, 199)
+src_1_circ: -
+src_uuset: (245, 32)
+snk_1_circ: -
+snk_ddset: (243, 199) (244, 31)
+
+interval 31
+multiplicity: 1
+size: 117
+src: (246, 83)
+snk: (246, 199)
+src_1_circ: -
+src_uuset: (247, 83)
+snk_1_circ: -
+snk_ddset: (245, 199) (246, 82)
+
+interval 32
+multiplicity: 1
+size: 462
+src: (251, 46)
+snk: (253, 199)
+src_1_circ: -
+src_uuset: (254, 46)
+snk_1_circ: -
+snk_ddset: (250, 199) (253, 45)
+
+interval 33
+multiplicity: 1
+size: 188
+src: (258, 106)
+snk: (259, 199)
+src_1_circ: -
+src_uuset: (260, 106)
+snk_1_circ: -
+snk_ddset: (257, 199) (259, 105)
+
+interval 34
+multiplicity: 1
+size: 484
+src: (266, 79)
+snk: (269, 199)
+src_1_circ: -
+src_uuset: (270, 79)
+snk_1_circ: -
+snk_ddset: (265, 199) (269, 78)
+
+interval 35
+multiplicity: 1
+size: 139
+src: (268, 61)
+snk: (268, 199)
+src_1_circ: -
+src_uuset: (269, 61)
+snk_1_circ: -
+snk_ddset: (267, 199) (268, 60)
+
+interval 36
+multiplicity: 1
+size: 672
+src: (272, 88)
+snk: (277, 199)
+src_1_circ: -
+src_uuset: (278, 88)
+snk_1_circ: -
+snk_ddset: (271, 199) (277, 87)
+
+interval 37
+multiplicity: 1
+size: 960
+src: (279, 104)
+snk: (288, 199)
+src_1_circ: -
+src_uuset: (289, 104)
+snk_1_circ: -
+snk_ddset: (278, 199) (288, 103)
+
+interval 38
+multiplicity: 1
+size: 96
+src: (285, 104)
+snk: (285, 199)
+src_1_circ: -
+src_uuset: (286, 104)
+snk_1_circ: -
+snk_ddset: (284, 199) (285, 103)
+
+interval 39
+multiplicity: 1
+size: 1170
+src: (300, 83)
+snk: (309, 199)
+src_1_circ: -
+src_uuset: (310, 83)
+snk_1_circ: -
+snk_ddset: (299, 199) (309, 82)
+
+interval 40
+multiplicity: 1
+size: 660
+src: (305, 145)
+snk: (316, 199)
+src_1_circ: -
+src_uuset: (317, 145)
+snk_1_circ: -
+snk_ddset: (304, 199) (316, 144)
+
+interval 41
+multiplicity: 1
+size: 24
+src: (315, 176)
+snk: (315, 199)
+src_1_circ: -
+src_uuset: (316, 176)
+snk_1_circ: -
+snk_ddset: (314, 199) (315, 175)
+
+interval 42
+multiplicity: 1
+size: 360
+src: (318, 160)
+snk: (326, 199)
+src_1_circ: -
+src_uuset: (327, 160)
+snk_1_circ: -
+snk_ddset: (317, 199) (326, 159)
+
+interval 43
+multiplicity: 1
+size: 282
+src: (322, 106)
+snk: (324, 199)
+src_1_circ: -
+src_uuset: (325, 106)
+snk_1_circ: -
+snk_ddset: (321, 199) (324, 105)
+
+interval 44
+multiplicity: 1
+size: 1088
+src: (324, 132)
+snk: (339, 199)
+src_1_circ: -
+src_uuset: (340, 132)
+snk_1_circ: -
+snk_ddset: (323, 199) (339, 131)
+
+interval 45
+multiplicity: 1
+size: 1898
+src: (330, 127)
+snk: (355, 199)
+src_1_circ: -
+src_uuset: (356, 127)
+snk_1_circ: -
+snk_ddset: (329, 199) (355, 126)
+
+interval 46
+multiplicity: 1
+size: 252
+src: (331, 182)
+snk: (344, 199)
+src_1_circ: -
+src_uuset: (345, 182)
+snk_1_circ: -
+snk_ddset: (330, 199) (344, 181)
+
+interval 47
+multiplicity: 1
+size: 1022
+src: (332, 127)
+snk: (345, 199)
+src_1_circ: -
+src_uuset: (346, 127)
+snk_1_circ: -
+snk_ddset: (331, 199) (345, 126)
+
+interval 48
+multiplicity: 1
+size: 1860
+src: (336, 140)
+snk: (366, 199)
+src_1_circ: -
+src_uuset: (367, 140)
+snk_1_circ: -
+snk_ddset: (335, 199) (366, 139)
+
+interval 49
+multiplicity: 1
+size: 780
+src: (339, 140)
+snk: (351, 199)
+src_1_circ: -
+src_uuset: (352, 140)
+snk_1_circ: -
+snk_ddset: (338, 199) (351, 139)
+
+interval 50
+multiplicity: 1
+size: 1
+src: (343, 199)
+snk: (343, 199)
+src_1_circ: -
+src_uuset: (344, 199)
+snk_1_circ: -
+snk_ddset: (342, 199) (343, 198)
+
+interval 51
+multiplicity: 1
+size: 343
+src: (355, 151)
+snk: (361, 199)
+src_1_circ: -
+src_uuset: (362, 151)
+snk_1_circ: -
+snk_ddset: (354, 199) (361, 150)
+
+interval 52
+multiplicity: 1
+size: 272
+src: (361, 132)
+snk: (364, 199)
+src_1_circ: -
+src_uuset: (365, 132)
+snk_1_circ: -
+snk_ddset: (360, 199) (364, 131)
+
+interval 53
+multiplicity: 1
+size: 2212
+src: (373, 121)
+snk: (400, 199)
+src_1_circ: -
+src_uuset: (401, 121)
+snk_1_circ: -
+snk_ddset: (372, 199) (400, 120)
+
+interval 54
+multiplicity: 1
+size: 350
+src: (377, 150)
+snk: (383, 199)
+src_1_circ: -
+src_uuset: (384, 150)
+snk_1_circ: -
+snk_ddset: (376, 199) (383, 149)
+
+interval 55
+multiplicity: 1
+size: 128
+src: (378, 136)
+snk: (379, 199)
+src_1_circ: -
+src_uuset: (380, 136)
+snk_1_circ: -
+snk_ddset: (377, 199) (379, 135)
+
+interval 56
+multiplicity: 1
+size: 609
+src: (392, 179)
+snk: (420, 199)
+src_1_circ: -
+src_uuset: (421, 179)
+snk_1_circ: -
+snk_ddset: (391, 199) (420, 178)
+
+interval 58
+multiplicity: 1
+size: 1
+src: (418, 199)
+snk: (418, 199)
+src_1_circ: -
+src_uuset: (419, 199)
+snk_1_circ: -
+snk_ddset: (417, 199) (418, 198)
+
+interval 59
+multiplicity: 1
+size: 120
+src: (449, 80)
+snk: (449, 199)
+src_1_circ: -
+src_uuset: (450, 80)
+snk_1_circ: -
+snk_ddset: (448, 199) (449, 79)
+
+interval 61
+multiplicity: 1
+size: 24
+src: (483, 176)
+snk: (483, 199)
+src_1_circ: -
+src_uuset: (484, 176)
+snk_1_circ: -
+snk_ddset: (482, 199) (483, 175)
+
+interval 62
+multiplicity: 1
+size: 228
+src: (486, 188)
+snk: (504, 199)
+src_1_circ: -
+src_uuset: (505, 188)
+snk_1_circ: -
+snk_ddset: (485, 199) (504, 187)
+
+interval 68
+multiplicity: 1
+size: 517
+src: (596, 72)
+snk: (642, 82)
+src_1_circ: -
+src_uuset: (596, 83)
+snk_1_circ: -
+snk_ddset: (595, 82) (642, 71)
+
+interval 69
+multiplicity: 1
+size: 145
+src: (638, 145)
+snk: (642, 173)
+src_1_circ: -
+src_uuset: (638, 174)
+snk_1_circ: -
+snk_ddset: (637, 173) (642, 144)
+
+interval 70
+multiplicity: 1
+size: 31
+src: (642, 165)
+snk: (642, 195)
+src_1_circ: -
+src_uuset: (642, 196)
+snk_1_circ: -
+snk_ddset: (641, 195) (642, 164)

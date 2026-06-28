@@ -1,0 +1,17 @@
+scc2020
+2
+0 2 2
+--field GF(2)
+# finite_grid_projective_resolution
+# summand_kind: P_G
+# minimal_expected: true
+# minimal_verified_by_2pac_before_grid_extraction: true
+# grid min: 0 0
+# grid max: 2 2
+# matrix block 1
+# matrix block 2
+1 2 ; 1 2
+2 1 ; 2
+# Row grades for final term
+0 0
+1 1

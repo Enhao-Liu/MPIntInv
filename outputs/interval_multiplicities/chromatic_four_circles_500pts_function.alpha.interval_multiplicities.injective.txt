@@ -1,0 +1,3939 @@
+# finite_grid_interval_multiplicities
+# source_kind: injective_copresentation
+# source_path: outputs/resolution_computation/chromatic_four_circles_500pts_function.alpha.scc2020.finite_grid.injective_coresolution.txt
+# grid min: 0 0
+# grid max: 1869 1
+# candidate_intervals: 1530
+# nonzero_intervals: 393
+# skipped: False
+# message: Computed multiplicities from injective copresentation for 1530 interval candidates; 393 have nonzero multiplicity.
+
+interval 1
+multiplicity: 1
+size: 12
+src: (23, 0)
+snk: (28, 1)
+src_1_circ: -
+src_uuset: (29, 0)
+snk_1_circ: -
+snk_ddset: (22, 1)
+
+interval 3
+multiplicity: 1
+size: 10
+src: (28, 0)
+snk: (32, 1)
+src_1_circ: -
+src_uuset: (33, 0)
+snk_1_circ: -
+snk_ddset: (27, 1)
+
+interval 4
+multiplicity: 1
+size: 10
+src: (61, 0)
+snk: (65, 1)
+src_1_circ: -
+src_uuset: (66, 0)
+snk_1_circ: -
+snk_ddset: (60, 1)
+
+interval 5
+multiplicity: 1
+size: 40
+src: (93, 0)
+snk: (112, 1)
+src_1_circ: -
+src_uuset: (113, 0)
+snk_1_circ: -
+snk_ddset: (92, 1)
+
+interval 6
+multiplicity: 1
+size: 9
+src: (96, 1)
+snk: (104, 1)
+src_1_circ: -
+src_uuset: (105, 1)
+snk_1_circ: -
+snk_ddset: (95, 1) (104, 0)
+
+interval 7
+multiplicity: 1
+size: 8
+src: (107, 0)
+snk: (110, 1)
+src_1_circ: -
+src_uuset: (111, 0)
+snk_1_circ: -
+snk_ddset: (106, 1)
+
+interval 8
+multiplicity: 1
+size: 56
+src: (130, 0)
+snk: (157, 1)
+src_1_circ: -
+src_uuset: (158, 0)
+snk_1_circ: -
+snk_ddset: (129, 1)
+
+interval 9
+multiplicity: 1
+size: 10
+src: (132, 1)
+snk: (141, 1)
+src_1_circ: -
+src_uuset: (142, 1)
+snk_1_circ: -
+snk_ddset: (131, 1) (141, 0)
+
+interval 10
+multiplicity: 1
+size: 1
+src: (143, 1)
+snk: (143, 1)
+src_1_circ: -
+src_uuset: (144, 1)
+snk_1_circ: -
+snk_ddset: (142, 1) (143, 0)
+
+interval 11
+multiplicity: 1
+size: 30
+src: (163, 1)
+snk: (192, 1)
+src_1_circ: -
+src_uuset: (193, 1)
+snk_1_circ: -
+snk_ddset: (162, 1) (192, 0)
+
+interval 12
+multiplicity: 1
+size: 36
+src: (165, 0)
+snk: (182, 1)
+src_1_circ: -
+src_uuset: (183, 0)
+snk_1_circ: -
+snk_ddset: (164, 1)
+
+interval 13
+multiplicity: 1
+size: 16
+src: (172, 0)
+snk: (179, 1)
+src_1_circ: -
+src_uuset: (180, 0)
+snk_1_circ: -
+snk_ddset: (171, 1)
+
+interval 15
+multiplicity: 1
+size: 27
+src: (174, 1)
+snk: (200, 1)
+src_1_circ: -
+src_uuset: (201, 1)
+snk_1_circ: -
+snk_ddset: (173, 1) (200, 0)
+
+interval 16
+multiplicity: 1
+size: 28
+src: (194, 0)
+snk: (207, 1)
+src_1_circ: -
+src_uuset: (208, 0)
+snk_1_circ: -
+snk_ddset: (193, 1)
+
+interval 17
+multiplicity: 1
+size: 12
+src: (196, 0)
+snk: (201, 1)
+src_1_circ: -
+src_uuset: (202, 0)
+snk_1_circ: -
+snk_ddset: (195, 1)
+
+interval 18
+multiplicity: 1
+size: 2
+src: (203, 0)
+snk: (203, 1)
+src_1_circ: -
+src_uuset: (204, 0)
+snk_1_circ: -
+snk_ddset: (202, 1)
+
+interval 19
+multiplicity: 1
+size: 86
+src: (212, 0)
+snk: (254, 1)
+src_1_circ: -
+src_uuset: (255, 0)
+snk_1_circ: -
+snk_ddset: (211, 1)
+
+interval 20
+multiplicity: 1
+size: 2
+src: (218, 1)
+snk: (219, 1)
+src_1_circ: -
+src_uuset: (220, 1)
+snk_1_circ: -
+snk_ddset: (217, 1) (219, 0)
+
+interval 22
+multiplicity: 1
+size: 46
+src: (236, 0)
+snk: (258, 1)
+src_1_circ: -
+src_uuset: (259, 0)
+snk_1_circ: -
+snk_ddset: (235, 1)
+
+interval 23
+multiplicity: 1
+size: 12
+src: (247, 0)
+snk: (252, 1)
+src_1_circ: -
+src_uuset: (253, 0)
+snk_1_circ: -
+snk_ddset: (246, 1)
+
+interval 24
+multiplicity: 1
+size: 4
+src: (250, 0)
+snk: (251, 1)
+src_1_circ: -
+src_uuset: (252, 0)
+snk_1_circ: -
+snk_ddset: (249, 1)
+
+interval 25
+multiplicity: 1
+size: 11
+src: (260, 1)
+snk: (270, 1)
+src_1_circ: -
+src_uuset: (271, 1)
+snk_1_circ: -
+snk_ddset: (259, 1) (270, 0)
+
+interval 26
+multiplicity: 1
+size: 1
+src: (261, 1)
+snk: (261, 1)
+src_1_circ: -
+src_uuset: (262, 1)
+snk_1_circ: -
+snk_ddset: (260, 1) (261, 0)
+
+interval 27
+multiplicity: 1
+size: 62
+src: (269, 0)
+snk: (299, 1)
+src_1_circ: -
+src_uuset: (300, 0)
+snk_1_circ: -
+snk_ddset: (268, 1)
+
+interval 28
+multiplicity: 1
+size: 18
+src: (270, 0)
+snk: (278, 1)
+src_1_circ: -
+src_uuset: (279, 0)
+snk_1_circ: -
+snk_ddset: (269, 1)
+
+interval 29
+multiplicity: 1
+size: 35
+src: (275, 1)
+snk: (309, 1)
+src_1_circ: -
+src_uuset: (310, 1)
+snk_1_circ: -
+snk_ddset: (274, 1) (309, 0)
+
+interval 32
+multiplicity: 1
+size: 72
+src: (276, 0)
+snk: (311, 1)
+src_1_circ: -
+src_uuset: (312, 0)
+snk_1_circ: -
+snk_ddset: (275, 1)
+
+interval 33
+multiplicity: 1
+size: 6
+src: (287, 0)
+snk: (289, 1)
+src_1_circ: -
+src_uuset: (290, 0)
+snk_1_circ: -
+snk_ddset: (286, 1)
+
+interval 36
+multiplicity: 1
+size: 66
+src: (297, 0)
+snk: (329, 1)
+src_1_circ: -
+src_uuset: (330, 0)
+snk_1_circ: -
+snk_ddset: (296, 1)
+
+interval 37
+multiplicity: 1
+size: 16
+src: (301, 0)
+snk: (308, 1)
+src_1_circ: -
+src_uuset: (309, 0)
+snk_1_circ: -
+snk_ddset: (300, 1)
+
+interval 40
+multiplicity: 1
+size: 36
+src: (303, 0)
+snk: (320, 1)
+src_1_circ: -
+src_uuset: (321, 0)
+snk_1_circ: -
+snk_ddset: (302, 1)
+
+interval 42
+multiplicity: 1
+size: 38
+src: (306, 1)
+snk: (343, 1)
+src_1_circ: -
+src_uuset: (344, 1)
+snk_1_circ: -
+snk_ddset: (305, 1) (343, 0)
+
+interval 43
+multiplicity: 1
+size: 2
+src: (314, 0)
+snk: (314, 1)
+src_1_circ: -
+src_uuset: (315, 0)
+snk_1_circ: -
+snk_ddset: (313, 1)
+
+interval 44
+multiplicity: 1
+size: 8
+src: (322, 0)
+snk: (325, 1)
+src_1_circ: -
+src_uuset: (326, 0)
+snk_1_circ: -
+snk_ddset: (321, 1)
+
+interval 46
+multiplicity: 1
+size: 18
+src: (327, 0)
+snk: (335, 1)
+src_1_circ: -
+src_uuset: (336, 0)
+snk_1_circ: -
+snk_ddset: (326, 1)
+
+interval 48
+multiplicity: 1
+size: 95
+src: (337, 1)
+snk: (431, 1)
+src_1_circ: -
+src_uuset: (432, 1)
+snk_1_circ: -
+snk_ddset: (336, 1) (431, 0)
+
+interval 49
+multiplicity: 1
+size: 2
+src: (339, 0)
+snk: (339, 1)
+src_1_circ: -
+src_uuset: (340, 0)
+snk_1_circ: -
+snk_ddset: (338, 1)
+
+interval 50
+multiplicity: 1
+size: 52
+src: (346, 1)
+snk: (397, 1)
+src_1_circ: -
+src_uuset: (398, 1)
+snk_1_circ: -
+snk_ddset: (345, 1) (397, 0)
+
+interval 51
+multiplicity: 1
+size: 6
+src: (347, 0)
+snk: (349, 1)
+src_1_circ: -
+src_uuset: (350, 0)
+snk_1_circ: -
+snk_ddset: (346, 1)
+
+interval 52
+multiplicity: 1
+size: 66
+src: (362, 0)
+snk: (394, 1)
+src_1_circ: -
+src_uuset: (395, 0)
+snk_1_circ: -
+snk_ddset: (361, 1)
+
+interval 53
+multiplicity: 1
+size: 8
+src: (370, 0)
+snk: (373, 1)
+src_1_circ: -
+src_uuset: (374, 0)
+snk_1_circ: -
+snk_ddset: (369, 1)
+
+interval 55
+multiplicity: 1
+size: 36
+src: (384, 0)
+snk: (401, 1)
+src_1_circ: -
+src_uuset: (402, 0)
+snk_1_circ: -
+snk_ddset: (383, 1)
+
+interval 57
+multiplicity: 1
+size: 274
+src: (400, 1)
+snk: (673, 1)
+src_1_circ: -
+src_uuset: (674, 1)
+snk_1_circ: -
+snk_ddset: (399, 1) (673, 0)
+
+interval 58
+multiplicity: 1
+size: 4
+src: (405, 0)
+snk: (406, 1)
+src_1_circ: -
+src_uuset: (407, 0)
+snk_1_circ: -
+snk_ddset: (404, 1)
+
+interval 60
+multiplicity: 1
+size: 25
+src: (408, 1)
+snk: (432, 1)
+src_1_circ: -
+src_uuset: (433, 1)
+snk_1_circ: -
+snk_ddset: (407, 1) (432, 0)
+
+interval 61
+multiplicity: 1
+size: 52
+src: (409, 0)
+snk: (434, 1)
+src_1_circ: -
+src_uuset: (435, 0)
+snk_1_circ: -
+snk_ddset: (408, 1)
+
+interval 63
+multiplicity: 1
+size: 238
+src: (411, 0)
+snk: (529, 1)
+src_1_circ: -
+src_uuset: (530, 0)
+snk_1_circ: -
+snk_ddset: (410, 1)
+
+interval 65
+multiplicity: 1
+size: 166
+src: (412, 0)
+snk: (494, 1)
+src_1_circ: -
+src_uuset: (495, 0)
+snk_1_circ: -
+snk_ddset: (411, 1)
+
+interval 69
+multiplicity: 1
+size: 262
+src: (430, 0)
+snk: (560, 1)
+src_1_circ: -
+src_uuset: (561, 0)
+snk_1_circ: -
+snk_ddset: (429, 1)
+
+interval 71
+multiplicity: 1
+size: 40
+src: (431, 0)
+snk: (450, 1)
+src_1_circ: -
+src_uuset: (451, 0)
+snk_1_circ: -
+snk_ddset: (430, 1)
+
+interval 72
+multiplicity: 1
+size: 5
+src: (437, 1)
+snk: (441, 1)
+src_1_circ: -
+src_uuset: (442, 1)
+snk_1_circ: -
+snk_ddset: (436, 1) (441, 0)
+
+interval 77
+multiplicity: 1
+size: 254
+src: (438, 0)
+snk: (564, 1)
+src_1_circ: -
+src_uuset: (565, 0)
+snk_1_circ: -
+snk_ddset: (437, 1)
+
+interval 79
+multiplicity: 1
+size: 40
+src: (440, 1)
+snk: (479, 1)
+src_1_circ: -
+src_uuset: (480, 1)
+snk_1_circ: -
+snk_ddset: (439, 1) (479, 0)
+
+interval 81
+multiplicity: 1
+size: 43
+src: (445, 1)
+snk: (487, 1)
+src_1_circ: -
+src_uuset: (488, 1)
+snk_1_circ: -
+snk_ddset: (444, 1) (487, 0)
+
+interval 82
+multiplicity: 1
+size: 4
+src: (447, 0)
+snk: (448, 1)
+src_1_circ: -
+src_uuset: (449, 0)
+snk_1_circ: -
+snk_ddset: (446, 1)
+
+interval 85
+multiplicity: 1
+size: 194
+src: (452, 0)
+snk: (548, 1)
+src_1_circ: -
+src_uuset: (549, 0)
+snk_1_circ: -
+snk_ddset: (451, 1)
+
+interval 86
+multiplicity: 1
+size: 9
+src: (463, 1)
+snk: (471, 1)
+src_1_circ: -
+src_uuset: (472, 1)
+snk_1_circ: -
+snk_ddset: (462, 1) (471, 0)
+
+interval 87
+multiplicity: 1
+size: 4
+src: (465, 0)
+snk: (466, 1)
+src_1_circ: -
+src_uuset: (467, 0)
+snk_1_circ: -
+snk_ddset: (464, 1)
+
+interval 89
+multiplicity: 1
+size: 32
+src: (483, 0)
+snk: (498, 1)
+src_1_circ: -
+src_uuset: (499, 0)
+snk_1_circ: -
+snk_ddset: (482, 1)
+
+interval 90
+multiplicity: 1
+size: 6
+src: (487, 0)
+snk: (489, 1)
+src_1_circ: -
+src_uuset: (490, 0)
+snk_1_circ: -
+snk_ddset: (486, 1)
+
+interval 94
+multiplicity: 1
+size: 108
+src: (491, 0)
+snk: (544, 1)
+src_1_circ: -
+src_uuset: (545, 0)
+snk_1_circ: -
+snk_ddset: (490, 1)
+
+interval 95
+multiplicity: 1
+size: 5
+src: (492, 1)
+snk: (496, 1)
+src_1_circ: -
+src_uuset: (497, 1)
+snk_1_circ: -
+snk_ddset: (491, 1) (496, 0)
+
+interval 101
+multiplicity: 1
+size: 212
+src: (507, 0)
+snk: (612, 1)
+src_1_circ: -
+src_uuset: (613, 0)
+snk_1_circ: -
+snk_ddset: (506, 1)
+
+interval 102
+multiplicity: 1
+size: 6
+src: (511, 0)
+snk: (513, 1)
+src_1_circ: -
+src_uuset: (514, 0)
+snk_1_circ: -
+snk_ddset: (510, 1)
+
+interval 103
+multiplicity: 1
+size: 8
+src: (515, 0)
+snk: (518, 1)
+src_1_circ: -
+src_uuset: (519, 0)
+snk_1_circ: -
+snk_ddset: (514, 1)
+
+interval 106
+multiplicity: 1
+size: 30
+src: (518, 0)
+snk: (532, 1)
+src_1_circ: -
+src_uuset: (533, 0)
+snk_1_circ: -
+snk_ddset: (517, 1)
+
+interval 110
+multiplicity: 1
+size: 56
+src: (520, 0)
+snk: (547, 1)
+src_1_circ: -
+src_uuset: (548, 0)
+snk_1_circ: -
+snk_ddset: (519, 1)
+
+interval 111
+multiplicity: 1
+size: 6
+src: (534, 0)
+snk: (536, 1)
+src_1_circ: -
+src_uuset: (537, 0)
+snk_1_circ: -
+snk_ddset: (533, 1)
+
+interval 113
+multiplicity: 1
+size: 177
+src: (540, 1) (675, 0)
+snk: (695, 1)
+src_1_circ: (675, 1)
+src_uuset: (696, 0)
+snk_1_circ: -
+snk_ddset: (539, 1) (674, 0)
+
+interval 114
+multiplicity: 1
+size: 1
+src: (542, 1)
+snk: (542, 1)
+src_1_circ: -
+src_uuset: (543, 1)
+snk_1_circ: -
+snk_ddset: (541, 1) (542, 0)
+
+interval 116
+multiplicity: 1
+size: 24
+src: (550, 0)
+snk: (561, 1)
+src_1_circ: -
+src_uuset: (562, 0)
+snk_1_circ: -
+snk_ddset: (549, 1)
+
+interval 117
+multiplicity: 1
+size: 2
+src: (558, 0)
+snk: (558, 1)
+src_1_circ: -
+src_uuset: (559, 0)
+snk_1_circ: -
+snk_ddset: (557, 1)
+
+interval 118
+multiplicity: 1
+size: 18
+src: (566, 1)
+snk: (583, 1)
+src_1_circ: -
+src_uuset: (584, 1)
+snk_1_circ: -
+snk_ddset: (565, 1) (583, 0)
+
+interval 119
+multiplicity: 1
+size: 66
+src: (567, 0)
+snk: (599, 1)
+src_1_circ: -
+src_uuset: (600, 0)
+snk_1_circ: -
+snk_ddset: (566, 1)
+
+interval 120
+multiplicity: 1
+size: 2
+src: (569, 0)
+snk: (569, 1)
+src_1_circ: -
+src_uuset: (570, 0)
+snk_1_circ: -
+snk_ddset: (568, 1)
+
+interval 122
+multiplicity: 1
+size: 64
+src: (571, 0)
+snk: (602, 1)
+src_1_circ: -
+src_uuset: (603, 0)
+snk_1_circ: -
+snk_ddset: (570, 1)
+
+interval 126
+multiplicity: 1
+size: 172
+src: (576, 0)
+snk: (661, 1)
+src_1_circ: -
+src_uuset: (662, 0)
+snk_1_circ: -
+snk_ddset: (575, 1)
+
+interval 127
+multiplicity: 1
+size: 4
+src: (581, 0)
+snk: (582, 1)
+src_1_circ: -
+src_uuset: (583, 0)
+snk_1_circ: -
+snk_ddset: (580, 1)
+
+interval 129
+multiplicity: 1
+size: 28
+src: (582, 0)
+snk: (595, 1)
+src_1_circ: -
+src_uuset: (596, 0)
+snk_1_circ: -
+snk_ddset: (581, 1)
+
+interval 131
+multiplicity: 1
+size: 136
+src: (585, 1)
+snk: (720, 1)
+src_1_circ: -
+src_uuset: (721, 1)
+snk_1_circ: -
+snk_ddset: (584, 1) (720, 0)
+
+interval 135
+multiplicity: 1
+size: 18
+src: (608, 0)
+snk: (616, 1)
+src_1_circ: -
+src_uuset: (617, 0)
+snk_1_circ: -
+snk_ddset: (607, 1)
+
+interval 136
+multiplicity: 1
+size: 4
+src: (609, 0)
+snk: (610, 1)
+src_1_circ: -
+src_uuset: (611, 0)
+snk_1_circ: -
+snk_ddset: (608, 1)
+
+interval 141
+multiplicity: 1
+size: 184
+src: (610, 0)
+snk: (701, 1)
+src_1_circ: -
+src_uuset: (702, 0)
+snk_1_circ: -
+snk_ddset: (609, 1)
+
+interval 142
+multiplicity: 1
+size: 8
+src: (618, 0)
+snk: (621, 1)
+src_1_circ: -
+src_uuset: (622, 0)
+snk_1_circ: -
+snk_ddset: (617, 1)
+
+interval 143
+multiplicity: 1
+size: 2
+src: (619, 1)
+snk: (620, 1)
+src_1_circ: -
+src_uuset: (621, 1)
+snk_1_circ: -
+snk_ddset: (618, 1) (620, 0)
+
+interval 145
+multiplicity: 1
+size: 92
+src: (623, 0)
+snk: (668, 1)
+src_1_circ: -
+src_uuset: (669, 0)
+snk_1_circ: -
+snk_ddset: (622, 1)
+
+interval 147
+multiplicity: 1
+size: 60
+src: (633, 0)
+snk: (662, 1)
+src_1_circ: -
+src_uuset: (663, 0)
+snk_1_circ: -
+snk_ddset: (632, 1)
+
+interval 150
+multiplicity: 1
+size: 130
+src: (636, 1)
+snk: (765, 1)
+src_1_circ: -
+src_uuset: (766, 1)
+snk_1_circ: -
+snk_ddset: (635, 1) (765, 0)
+
+interval 156
+multiplicity: 1
+size: 24
+src: (637, 0)
+snk: (648, 1)
+src_1_circ: -
+src_uuset: (649, 0)
+snk_1_circ: -
+snk_ddset: (636, 1)
+
+interval 157
+multiplicity: 1
+size: 2
+src: (642, 0)
+snk: (642, 1)
+src_1_circ: -
+src_uuset: (643, 0)
+snk_1_circ: -
+snk_ddset: (641, 1)
+
+interval 173
+multiplicity: 1
+size: 80
+src: (650, 1)
+snk: (729, 1)
+src_1_circ: -
+src_uuset: (730, 1)
+snk_1_circ: -
+snk_ddset: (649, 1) (729, 0)
+
+interval 178
+multiplicity: 1
+size: 6
+src: (651, 0)
+snk: (653, 1)
+src_1_circ: -
+src_uuset: (654, 0)
+snk_1_circ: -
+snk_ddset: (650, 1)
+
+interval 180
+multiplicity: 1
+size: 24
+src: (661, 1)
+snk: (684, 1)
+src_1_circ: -
+src_uuset: (685, 1)
+snk_1_circ: -
+snk_ddset: (660, 1) (684, 0)
+
+interval 181
+multiplicity: 1
+size: 1
+src: (665, 1)
+snk: (665, 1)
+src_1_circ: -
+src_uuset: (666, 1)
+snk_1_circ: -
+snk_ddset: (664, 1) (665, 0)
+
+interval 182
+multiplicity: 1
+size: 36
+src: (671, 0)
+snk: (688, 1)
+src_1_circ: -
+src_uuset: (689, 0)
+snk_1_circ: -
+snk_ddset: (670, 1)
+
+interval 185
+multiplicity: 1
+size: 772
+src: (672, 0)
+snk: (1057, 1)
+src_1_circ: -
+src_uuset: (1058, 0)
+snk_1_circ: -
+snk_ddset: (671, 1)
+
+interval 190
+multiplicity: 1
+size: 139
+src: (676, 1)
+snk: (814, 1)
+src_1_circ: -
+src_uuset: (815, 1)
+snk_1_circ: -
+snk_ddset: (675, 1) (814, 0)
+
+interval 198
+multiplicity: 1
+size: 12
+src: (677, 0)
+snk: (682, 1)
+src_1_circ: -
+src_uuset: (683, 0)
+snk_1_circ: -
+snk_ddset: (676, 1)
+
+interval 201
+multiplicity: 1
+size: 30
+src: (680, 0)
+snk: (694, 1)
+src_1_circ: -
+src_uuset: (695, 0)
+snk_1_circ: -
+snk_ddset: (679, 1)
+
+interval 210
+multiplicity: 1
+size: 46
+src: (687, 0)
+snk: (709, 1)
+src_1_circ: -
+src_uuset: (710, 0)
+snk_1_circ: -
+snk_ddset: (686, 1)
+
+interval 215
+multiplicity: 1
+size: 1173
+src: (697, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (697, 1)
+snk_1_circ: -
+snk_ddset: (696, 0)
+
+interval 218
+multiplicity: 1
+size: 106
+src: (698, 0)
+snk: (750, 1)
+src_1_circ: -
+src_uuset: (751, 0)
+snk_1_circ: -
+snk_ddset: (697, 1)
+
+interval 220
+multiplicity: 1
+size: 16
+src: (699, 0)
+snk: (706, 1)
+src_1_circ: -
+src_uuset: (707, 0)
+snk_1_circ: -
+snk_ddset: (698, 1)
+
+interval 222
+multiplicity: 1
+size: 12
+src: (700, 0)
+snk: (705, 1)
+src_1_circ: -
+src_uuset: (706, 0)
+snk_1_circ: -
+snk_ddset: (699, 1)
+
+interval 227
+multiplicity: 1
+size: 98
+src: (701, 0)
+snk: (749, 1)
+src_1_circ: -
+src_uuset: (750, 0)
+snk_1_circ: -
+snk_ddset: (700, 1)
+
+interval 228
+multiplicity: 1
+size: 1
+src: (708, 1)
+snk: (708, 1)
+src_1_circ: -
+src_uuset: (709, 1)
+snk_1_circ: -
+snk_ddset: (707, 1) (708, 0)
+
+interval 229
+multiplicity: 1
+size: 10
+src: (711, 0)
+snk: (715, 1)
+src_1_circ: -
+src_uuset: (716, 0)
+snk_1_circ: -
+snk_ddset: (710, 1)
+
+interval 235
+multiplicity: 1
+size: 512
+src: (719, 0)
+snk: (974, 1)
+src_1_circ: -
+src_uuset: (975, 0)
+snk_1_circ: -
+snk_ddset: (718, 1)
+
+interval 236
+multiplicity: 1
+size: 40
+src: (723, 0)
+snk: (742, 1)
+src_1_circ: -
+src_uuset: (743, 0)
+snk_1_circ: -
+snk_ddset: (722, 1)
+
+interval 238
+multiplicity: 1
+size: 40
+src: (724, 1)
+snk: (763, 1)
+src_1_circ: -
+src_uuset: (764, 1)
+snk_1_circ: -
+snk_ddset: (723, 1) (763, 0)
+
+interval 242
+multiplicity: 1
+size: 24
+src: (731, 1)
+snk: (754, 1)
+src_1_circ: -
+src_uuset: (755, 1)
+snk_1_circ: -
+snk_ddset: (730, 1) (754, 0)
+
+interval 249
+multiplicity: 1
+size: 63
+src: (732, 1)
+snk: (794, 1)
+src_1_circ: -
+src_uuset: (795, 1)
+snk_1_circ: -
+snk_ddset: (731, 1) (794, 0)
+
+interval 257
+multiplicity: 1
+size: 10
+src: (733, 0)
+snk: (737, 1)
+src_1_circ: -
+src_uuset: (738, 0)
+snk_1_circ: -
+snk_ddset: (732, 1)
+
+interval 258
+multiplicity: 1
+size: 7
+src: (734, 1)
+snk: (740, 1)
+src_1_circ: -
+src_uuset: (741, 1)
+snk_1_circ: -
+snk_ddset: (733, 1) (740, 0)
+
+interval 281
+multiplicity: 1
+size: 4
+src: (740, 0)
+snk: (741, 1)
+src_1_circ: -
+src_uuset: (742, 0)
+snk_1_circ: -
+snk_ddset: (739, 1)
+
+interval 282
+multiplicity: 1
+size: 10
+src: (744, 0)
+snk: (748, 1)
+src_1_circ: -
+src_uuset: (749, 0)
+snk_1_circ: -
+snk_ddset: (743, 1)
+
+interval 287
+multiplicity: 1
+size: 69
+src: (745, 1)
+snk: (813, 1)
+src_1_circ: -
+src_uuset: (814, 1)
+snk_1_circ: -
+snk_ddset: (744, 1) (813, 0)
+
+interval 298
+multiplicity: 1
+size: 1124
+src: (746, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (746, 1)
+snk_1_circ: -
+snk_ddset: (745, 0)
+
+interval 302
+multiplicity: 1
+size: 30
+src: (747, 1)
+snk: (776, 1)
+src_1_circ: -
+src_uuset: (777, 1)
+snk_1_circ: -
+snk_ddset: (746, 1) (776, 0)
+
+interval 303
+multiplicity: 1
+size: 1
+src: (753, 1)
+snk: (753, 1)
+src_1_circ: -
+src_uuset: (754, 1)
+snk_1_circ: -
+snk_ddset: (752, 1) (753, 0)
+
+interval 310
+multiplicity: 1
+size: 253
+src: (758, 1)
+snk: (1010, 1)
+src_1_circ: -
+src_uuset: (1011, 1)
+snk_1_circ: -
+snk_ddset: (757, 1) (1010, 0)
+
+interval 322
+multiplicity: 1
+size: 50
+src: (760, 0)
+snk: (784, 1)
+src_1_circ: -
+src_uuset: (785, 0)
+snk_1_circ: -
+snk_ddset: (759, 1)
+
+interval 324
+multiplicity: 1
+size: 32
+src: (768, 0)
+snk: (783, 1)
+src_1_circ: -
+src_uuset: (784, 0)
+snk_1_circ: -
+snk_ddset: (767, 1)
+
+interval 328
+multiplicity: 1
+size: 52
+src: (782, 0)
+snk: (807, 1)
+src_1_circ: -
+src_uuset: (808, 0)
+snk_1_circ: -
+snk_ddset: (781, 1)
+
+interval 332
+multiplicity: 1
+size: 340
+src: (790, 0)
+snk: (959, 1)
+src_1_circ: -
+src_uuset: (960, 0)
+snk_1_circ: -
+snk_ddset: (789, 1)
+
+interval 333
+multiplicity: 1
+size: 2
+src: (793, 0)
+snk: (793, 1)
+src_1_circ: -
+src_uuset: (794, 0)
+snk_1_circ: -
+snk_ddset: (792, 1)
+
+interval 334
+multiplicity: 1
+size: 8
+src: (798, 0)
+snk: (801, 1)
+src_1_circ: -
+src_uuset: (802, 0)
+snk_1_circ: -
+snk_ddset: (797, 1)
+
+interval 336
+multiplicity: 1
+size: 14
+src: (804, 0)
+snk: (810, 1)
+src_1_circ: -
+src_uuset: (811, 0)
+snk_1_circ: -
+snk_ddset: (803, 1)
+
+interval 339
+multiplicity: 1
+size: 56
+src: (807, 0)
+snk: (834, 1)
+src_1_circ: -
+src_uuset: (835, 0)
+snk_1_circ: -
+snk_ddset: (806, 1)
+
+interval 340
+multiplicity: 1
+size: 1
+src: (812, 1)
+snk: (812, 1)
+src_1_circ: -
+src_uuset: (813, 1)
+snk_1_circ: -
+snk_ddset: (811, 1) (812, 0)
+
+interval 345
+multiplicity: 1
+size: 336
+src: (819, 0)
+snk: (986, 1)
+src_1_circ: -
+src_uuset: (987, 0)
+snk_1_circ: -
+snk_ddset: (818, 1)
+
+interval 346
+multiplicity: 1
+size: 10
+src: (822, 0)
+snk: (826, 1)
+src_1_circ: -
+src_uuset: (827, 0)
+snk_1_circ: -
+snk_ddset: (821, 1)
+
+interval 353
+multiplicity: 1
+size: 344
+src: (824, 0)
+snk: (995, 1)
+src_1_circ: -
+src_uuset: (996, 0)
+snk_1_circ: -
+snk_ddset: (823, 1)
+
+interval 354
+multiplicity: 1
+size: 2
+src: (825, 0)
+snk: (825, 1)
+src_1_circ: -
+src_uuset: (826, 0)
+snk_1_circ: -
+snk_ddset: (824, 1)
+
+interval 355
+multiplicity: 1
+size: 8
+src: (836, 0)
+snk: (839, 1)
+src_1_circ: -
+src_uuset: (840, 0)
+snk_1_circ: -
+snk_ddset: (835, 1)
+
+interval 356
+multiplicity: 1
+size: 22
+src: (841, 0)
+snk: (851, 1)
+src_1_circ: -
+src_uuset: (852, 0)
+snk_1_circ: -
+snk_ddset: (840, 1)
+
+interval 357
+multiplicity: 1
+size: 4
+src: (842, 1)
+snk: (845, 1)
+src_1_circ: -
+src_uuset: (846, 1)
+snk_1_circ: -
+snk_ddset: (841, 1) (845, 0)
+
+interval 371
+multiplicity: 1
+size: 1879
+src: (844, 1) (866, 0)
+snk: (1718, 1) (1869, 0)
+src_1_circ: (866, 1)
+src_uuset: (1719, 1)
+snk_1_circ: (1718, 0)
+snk_ddset: (843, 1) (865, 0)
+
+interval 394
+multiplicity: 1
+size: 2
+src: (851, 1)
+snk: (852, 1)
+src_1_circ: -
+src_uuset: (853, 1)
+snk_1_circ: -
+snk_ddset: (850, 1) (852, 0)
+
+interval 397
+multiplicity: 1
+size: 169
+src: (854, 1) (859, 0)
+snk: (940, 1)
+src_1_circ: (859, 1)
+src_uuset: (941, 0)
+snk_1_circ: -
+snk_ddset: (853, 1) (858, 0)
+
+interval 406
+multiplicity: 1
+size: 232
+src: (856, 0)
+snk: (971, 1)
+src_1_circ: -
+src_uuset: (972, 0)
+snk_1_circ: -
+snk_ddset: (855, 1)
+
+interval 407
+multiplicity: 1
+size: 44
+src: (858, 0)
+snk: (879, 1)
+src_1_circ: -
+src_uuset: (880, 0)
+snk_1_circ: -
+snk_ddset: (857, 1)
+
+interval 408
+multiplicity: 1
+size: 6
+src: (860, 0)
+snk: (862, 1)
+src_1_circ: -
+src_uuset: (863, 0)
+snk_1_circ: -
+snk_ddset: (859, 1)
+
+interval 410
+multiplicity: 1
+size: 102
+src: (862, 1)
+snk: (963, 1)
+src_1_circ: -
+src_uuset: (964, 1)
+snk_1_circ: -
+snk_ddset: (861, 1) (963, 0)
+
+interval 424
+multiplicity: 1
+size: 6
+src: (865, 0)
+snk: (867, 1)
+src_1_circ: -
+src_uuset: (868, 0)
+snk_1_circ: -
+snk_ddset: (864, 1)
+
+interval 426
+multiplicity: 1
+size: 2
+src: (870, 0)
+snk: (870, 1)
+src_1_circ: -
+src_uuset: (871, 0)
+snk_1_circ: -
+snk_ddset: (869, 1)
+
+interval 428
+multiplicity: 1
+size: 18
+src: (873, 0)
+snk: (881, 1)
+src_1_circ: -
+src_uuset: (882, 0)
+snk_1_circ: -
+snk_ddset: (872, 1)
+
+interval 429
+multiplicity: 1
+size: 5
+src: (874, 1)
+snk: (878, 1)
+src_1_circ: -
+src_uuset: (879, 1)
+snk_1_circ: -
+snk_ddset: (873, 1) (878, 0)
+
+interval 458
+multiplicity: 1
+size: 608
+src: (875, 0)
+snk: (1178, 1)
+src_1_circ: -
+src_uuset: (1179, 0)
+snk_1_circ: -
+snk_ddset: (874, 1)
+
+interval 459
+multiplicity: 1
+size: 994
+src: (876, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (876, 1)
+snk_1_circ: -
+snk_ddset: (875, 0)
+
+interval 461
+multiplicity: 1
+size: 22
+src: (881, 0)
+snk: (891, 1)
+src_1_circ: -
+src_uuset: (892, 0)
+snk_1_circ: -
+snk_ddset: (880, 1)
+
+interval 462
+multiplicity: 1
+size: 8
+src: (883, 0)
+snk: (886, 1)
+src_1_circ: -
+src_uuset: (887, 0)
+snk_1_circ: -
+snk_ddset: (882, 1)
+
+interval 469
+multiplicity: 1
+size: 158
+src: (884, 0)
+snk: (962, 1)
+src_1_circ: -
+src_uuset: (963, 0)
+snk_1_circ: -
+snk_ddset: (883, 1)
+
+interval 470
+multiplicity: 1
+size: 59
+src: (893, 1)
+snk: (951, 1)
+src_1_circ: -
+src_uuset: (952, 1)
+snk_1_circ: -
+snk_ddset: (892, 1) (951, 0)
+
+interval 471
+multiplicity: 1
+size: 1
+src: (894, 1)
+snk: (894, 1)
+src_1_circ: -
+src_uuset: (895, 1)
+snk_1_circ: -
+snk_ddset: (893, 1) (894, 0)
+
+interval 473
+multiplicity: 1
+size: 12
+src: (901, 0)
+snk: (906, 1)
+src_1_circ: -
+src_uuset: (907, 0)
+snk_1_circ: -
+snk_ddset: (900, 1)
+
+interval 475
+multiplicity: 1
+size: 10
+src: (906, 0)
+snk: (910, 1)
+src_1_circ: -
+src_uuset: (911, 0)
+snk_1_circ: -
+snk_ddset: (905, 1)
+
+interval 476
+multiplicity: 1
+size: 22
+src: (912, 1)
+snk: (933, 1)
+src_1_circ: -
+src_uuset: (934, 1)
+snk_1_circ: -
+snk_ddset: (911, 1) (933, 0)
+
+interval 478
+multiplicity: 1
+size: 66
+src: (914, 0)
+snk: (946, 1)
+src_1_circ: -
+src_uuset: (947, 0)
+snk_1_circ: -
+snk_ddset: (913, 1)
+
+interval 487
+multiplicity: 1
+size: 216
+src: (915, 0)
+snk: (1022, 1)
+src_1_circ: -
+src_uuset: (1023, 0)
+snk_1_circ: -
+snk_ddset: (914, 1)
+
+interval 494
+multiplicity: 1
+size: 118
+src: (917, 0)
+snk: (975, 1)
+src_1_circ: -
+src_uuset: (976, 0)
+snk_1_circ: -
+snk_ddset: (916, 1)
+
+interval 506
+multiplicity: 1
+size: 286
+src: (918, 0)
+snk: (1060, 1)
+src_1_circ: -
+src_uuset: (1061, 0)
+snk_1_circ: -
+snk_ddset: (917, 1)
+
+interval 509
+multiplicity: 1
+size: 72
+src: (919, 0)
+snk: (954, 1)
+src_1_circ: -
+src_uuset: (955, 0)
+snk_1_circ: -
+snk_ddset: (918, 1)
+
+interval 510
+multiplicity: 1
+size: 14
+src: (921, 0)
+snk: (927, 1)
+src_1_circ: -
+src_uuset: (928, 0)
+snk_1_circ: -
+snk_ddset: (920, 1)
+
+interval 517
+multiplicity: 1
+size: 94
+src: (923, 0)
+snk: (969, 1)
+src_1_circ: -
+src_uuset: (970, 0)
+snk_1_circ: -
+snk_ddset: (922, 1)
+
+interval 528
+multiplicity: 1
+size: 122
+src: (924, 0)
+snk: (984, 1)
+src_1_circ: -
+src_uuset: (985, 0)
+snk_1_circ: -
+snk_ddset: (923, 1)
+
+interval 531
+multiplicity: 1
+size: 29
+src: (927, 1)
+snk: (955, 1)
+src_1_circ: -
+src_uuset: (956, 1)
+snk_1_circ: -
+snk_ddset: (926, 1) (955, 0)
+
+interval 534
+multiplicity: 1
+size: 46
+src: (931, 0)
+snk: (953, 1)
+src_1_circ: -
+src_uuset: (954, 0)
+snk_1_circ: -
+snk_ddset: (930, 1)
+
+interval 537
+multiplicity: 1
+size: 15
+src: (942, 1)
+snk: (956, 1)
+src_1_circ: -
+src_uuset: (957, 1)
+snk_1_circ: -
+snk_ddset: (941, 1) (956, 0)
+
+interval 538
+multiplicity: 1
+size: 2
+src: (943, 0)
+snk: (943, 1)
+src_1_circ: -
+src_uuset: (944, 0)
+snk_1_circ: -
+snk_ddset: (942, 1)
+
+interval 542
+multiplicity: 1
+size: 13
+src: (949, 1)
+snk: (961, 1)
+src_1_circ: -
+src_uuset: (962, 1)
+snk_1_circ: -
+snk_ddset: (948, 1) (961, 0)
+
+interval 557
+multiplicity: 1
+size: 278
+src: (951, 0)
+snk: (1089, 1)
+src_1_circ: -
+src_uuset: (1090, 0)
+snk_1_circ: -
+snk_ddset: (950, 1)
+
+interval 558
+multiplicity: 1
+size: 2
+src: (958, 0)
+snk: (958, 1)
+src_1_circ: -
+src_uuset: (959, 0)
+snk_1_circ: -
+snk_ddset: (957, 1)
+
+interval 569
+multiplicity: 1
+size: 244
+src: (966, 0)
+snk: (1087, 1)
+src_1_circ: -
+src_uuset: (1088, 0)
+snk_1_circ: -
+snk_ddset: (965, 1)
+
+interval 571
+multiplicity: 1
+size: 18
+src: (977, 0)
+snk: (985, 1)
+src_1_circ: -
+src_uuset: (986, 0)
+snk_1_circ: -
+snk_ddset: (976, 1)
+
+interval 576
+multiplicity: 1
+size: 30
+src: (983, 0)
+snk: (997, 1)
+src_1_circ: -
+src_uuset: (998, 0)
+snk_1_circ: -
+snk_ddset: (982, 1)
+
+interval 578
+multiplicity: 1
+size: 63
+src: (991, 1) (1050, 0)
+snk: (1051, 1)
+src_1_circ: (1050, 1)
+src_uuset: (1052, 0)
+snk_1_circ: -
+snk_ddset: (990, 1) (1049, 0)
+
+interval 579
+multiplicity: 1
+size: 5
+src: (994, 1)
+snk: (998, 1)
+src_1_circ: -
+src_uuset: (999, 1)
+snk_1_circ: -
+snk_ddset: (993, 1) (998, 0)
+
+interval 582
+multiplicity: 1
+size: 25
+src: (995, 1)
+snk: (1019, 1)
+src_1_circ: -
+src_uuset: (1020, 1)
+snk_1_circ: -
+snk_ddset: (994, 1) (1019, 0)
+
+interval 584
+multiplicity: 1
+size: 30
+src: (997, 0)
+snk: (1011, 1)
+src_1_circ: -
+src_uuset: (1012, 0)
+snk_1_circ: -
+snk_ddset: (996, 1)
+
+interval 585
+multiplicity: 1
+size: 7
+src: (1000, 1)
+snk: (1006, 1)
+src_1_circ: -
+src_uuset: (1007, 1)
+snk_1_circ: -
+snk_ddset: (999, 1) (1006, 0)
+
+interval 589
+multiplicity: 1
+size: 225
+src: (1005, 1)
+snk: (1229, 1)
+src_1_circ: -
+src_uuset: (1230, 1)
+snk_1_circ: -
+snk_ddset: (1004, 1) (1229, 0)
+
+interval 603
+multiplicity: 1
+size: 44
+src: (1019, 0)
+snk: (1040, 1)
+src_1_circ: -
+src_uuset: (1041, 0)
+snk_1_circ: -
+snk_ddset: (1018, 1)
+
+interval 605
+multiplicity: 1
+size: 8
+src: (1021, 0)
+snk: (1024, 1)
+src_1_circ: -
+src_uuset: (1025, 0)
+snk_1_circ: -
+snk_ddset: (1020, 1)
+
+interval 606
+multiplicity: 1
+size: 844
+src: (1026, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1026, 1)
+snk_1_circ: -
+snk_ddset: (1025, 0)
+
+interval 607
+multiplicity: 1
+size: 2
+src: (1028, 1)
+snk: (1029, 1)
+src_1_circ: -
+src_uuset: (1030, 1)
+snk_1_circ: -
+snk_ddset: (1027, 1) (1029, 0)
+
+interval 608
+multiplicity: 1
+size: 22
+src: (1029, 0)
+snk: (1039, 1)
+src_1_circ: -
+src_uuset: (1040, 0)
+snk_1_circ: -
+snk_ddset: (1028, 1)
+
+interval 613
+multiplicity: 1
+size: 56
+src: (1039, 0)
+snk: (1066, 1)
+src_1_circ: -
+src_uuset: (1067, 0)
+snk_1_circ: -
+snk_ddset: (1038, 1)
+
+interval 619
+multiplicity: 1
+size: 182
+src: (1044, 0)
+snk: (1134, 1)
+src_1_circ: -
+src_uuset: (1135, 0)
+snk_1_circ: -
+snk_ddset: (1043, 1)
+
+interval 620
+multiplicity: 1
+size: 14
+src: (1046, 1)
+snk: (1059, 1)
+src_1_circ: -
+src_uuset: (1060, 1)
+snk_1_circ: -
+snk_ddset: (1045, 1) (1059, 0)
+
+interval 622
+multiplicity: 1
+size: 4
+src: (1049, 1)
+snk: (1052, 1)
+src_1_circ: -
+src_uuset: (1053, 1)
+snk_1_circ: -
+snk_ddset: (1048, 1) (1052, 0)
+
+interval 625
+multiplicity: 1
+size: 6
+src: (1051, 0)
+snk: (1053, 1)
+src_1_circ: -
+src_uuset: (1054, 0)
+snk_1_circ: -
+snk_ddset: (1050, 1)
+
+interval 633
+multiplicity: 1
+size: 290
+src: (1056, 0)
+snk: (1200, 1)
+src_1_circ: -
+src_uuset: (1201, 0)
+snk_1_circ: -
+snk_ddset: (1055, 1)
+
+interval 639
+multiplicity: 1
+size: 190
+src: (1059, 0)
+snk: (1153, 1)
+src_1_circ: -
+src_uuset: (1154, 0)
+snk_1_circ: -
+snk_ddset: (1058, 1)
+
+interval 641
+multiplicity: 1
+size: 34
+src: (1062, 0)
+snk: (1078, 1)
+src_1_circ: -
+src_uuset: (1079, 0)
+snk_1_circ: -
+snk_ddset: (1061, 1)
+
+interval 642
+multiplicity: 1
+size: 68
+src: (1063, 1)
+snk: (1130, 1)
+src_1_circ: -
+src_uuset: (1131, 1)
+snk_1_circ: -
+snk_ddset: (1062, 1) (1130, 0)
+
+interval 648
+multiplicity: 1
+size: 112
+src: (1064, 0)
+snk: (1119, 1)
+src_1_circ: -
+src_uuset: (1120, 0)
+snk_1_circ: -
+snk_ddset: (1063, 1)
+
+interval 649
+multiplicity: 1
+size: 2
+src: (1068, 0)
+snk: (1068, 1)
+src_1_circ: -
+src_uuset: (1069, 0)
+snk_1_circ: -
+snk_ddset: (1067, 1)
+
+interval 650
+multiplicity: 1
+size: 2
+src: (1073, 0)
+snk: (1073, 1)
+src_1_circ: -
+src_uuset: (1074, 0)
+snk_1_circ: -
+snk_ddset: (1072, 1)
+
+interval 651
+multiplicity: 1
+size: 27
+src: (1075, 1)
+snk: (1101, 1)
+src_1_circ: -
+src_uuset: (1102, 1)
+snk_1_circ: -
+snk_ddset: (1074, 1) (1101, 0)
+
+interval 656
+multiplicity: 1
+size: 196
+src: (1076, 1)
+snk: (1271, 1)
+src_1_circ: -
+src_uuset: (1272, 1)
+snk_1_circ: -
+snk_ddset: (1075, 1) (1271, 0)
+
+interval 676
+multiplicity: 1
+size: 159
+src: (1077, 1)
+snk: (1235, 1)
+src_1_circ: -
+src_uuset: (1236, 1)
+snk_1_circ: -
+snk_ddset: (1076, 1) (1235, 0)
+
+interval 693
+multiplicity: 1
+size: 5
+src: (1078, 1)
+snk: (1082, 1)
+src_1_circ: -
+src_uuset: (1083, 1)
+snk_1_circ: -
+snk_ddset: (1077, 1) (1082, 0)
+
+interval 695
+multiplicity: 1
+size: 8
+src: (1081, 1)
+snk: (1088, 1)
+src_1_circ: -
+src_uuset: (1089, 1)
+snk_1_circ: -
+snk_ddset: (1080, 1) (1088, 0)
+
+interval 696
+multiplicity: 1
+size: 6
+src: (1082, 0)
+snk: (1084, 1)
+src_1_circ: -
+src_uuset: (1085, 0)
+snk_1_circ: -
+snk_ddset: (1081, 1)
+
+interval 700
+multiplicity: 1
+size: 72
+src: (1087, 0)
+snk: (1122, 1)
+src_1_circ: -
+src_uuset: (1123, 0)
+snk_1_circ: -
+snk_ddset: (1086, 1)
+
+interval 701
+multiplicity: 1
+size: 38
+src: (1091, 0)
+snk: (1109, 1)
+src_1_circ: -
+src_uuset: (1110, 0)
+snk_1_circ: -
+snk_ddset: (1090, 1)
+
+interval 702
+multiplicity: 1
+size: 4
+src: (1093, 1)
+snk: (1096, 1)
+src_1_circ: -
+src_uuset: (1097, 1)
+snk_1_circ: -
+snk_ddset: (1092, 1) (1096, 0)
+
+interval 704
+multiplicity: 1
+size: 774
+src: (1096, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1096, 1)
+snk_1_circ: -
+snk_ddset: (1095, 0)
+
+interval 723
+multiplicity: 1
+size: 1092
+src: (1099, 1) (1327, 0)
+snk: (1647, 1) (1869, 0)
+src_1_circ: (1327, 1)
+src_uuset: (1648, 1)
+snk_1_circ: (1647, 0)
+snk_ddset: (1098, 1) (1326, 0)
+
+interval 760
+multiplicity: 1
+size: 865
+src: (1101, 1) (1592, 0)
+snk: (1687, 1) (1869, 0)
+src_1_circ: (1592, 1)
+src_uuset: (1688, 1)
+snk_1_circ: (1687, 0)
+snk_ddset: (1100, 1) (1591, 0)
+
+interval 765
+multiplicity: 1
+size: 24
+src: (1103, 0)
+snk: (1114, 1)
+src_1_circ: -
+src_uuset: (1115, 0)
+snk_1_circ: -
+snk_ddset: (1102, 1)
+
+interval 767
+multiplicity: 1
+size: 67
+src: (1106, 1)
+snk: (1172, 1)
+src_1_circ: -
+src_uuset: (1173, 1)
+snk_1_circ: -
+snk_ddset: (1105, 1) (1172, 0)
+
+interval 772
+multiplicity: 1
+size: 24
+src: (1107, 0)
+snk: (1118, 1)
+src_1_circ: -
+src_uuset: (1119, 0)
+snk_1_circ: -
+snk_ddset: (1106, 1)
+
+interval 773
+multiplicity: 1
+size: 13
+src: (1109, 1)
+snk: (1121, 1)
+src_1_circ: -
+src_uuset: (1122, 1)
+snk_1_circ: -
+snk_ddset: (1108, 1) (1121, 0)
+
+interval 777
+multiplicity: 1
+size: 81
+src: (1111, 1)
+snk: (1191, 1)
+src_1_circ: -
+src_uuset: (1192, 1)
+snk_1_circ: -
+snk_ddset: (1110, 1) (1191, 0)
+
+interval 782
+multiplicity: 1
+size: 6
+src: (1112, 1)
+snk: (1117, 1)
+src_1_circ: -
+src_uuset: (1118, 1)
+snk_1_circ: -
+snk_ddset: (1111, 1) (1117, 0)
+
+interval 787
+multiplicity: 1
+size: 40
+src: (1116, 0)
+snk: (1135, 1)
+src_1_circ: -
+src_uuset: (1136, 0)
+snk_1_circ: -
+snk_ddset: (1115, 1)
+
+interval 791
+multiplicity: 1
+size: 46
+src: (1133, 0)
+snk: (1155, 1)
+src_1_circ: -
+src_uuset: (1156, 0)
+snk_1_circ: -
+snk_ddset: (1132, 1)
+
+interval 794
+multiplicity: 1
+size: 20
+src: (1134, 0)
+snk: (1143, 1)
+src_1_circ: -
+src_uuset: (1144, 0)
+snk_1_circ: -
+snk_ddset: (1133, 1)
+
+interval 800
+multiplicity: 1
+size: 142
+src: (1138, 1)
+snk: (1279, 1)
+src_1_circ: -
+src_uuset: (1280, 1)
+snk_1_circ: -
+snk_ddset: (1137, 1) (1279, 0)
+
+interval 816
+multiplicity: 1
+size: 12
+src: (1139, 0)
+snk: (1144, 1)
+src_1_circ: -
+src_uuset: (1145, 0)
+snk_1_circ: -
+snk_ddset: (1138, 1)
+
+interval 822
+multiplicity: 1
+size: 135
+src: (1143, 1)
+snk: (1277, 1)
+src_1_circ: -
+src_uuset: (1278, 1)
+snk_1_circ: -
+snk_ddset: (1142, 1) (1277, 0)
+
+interval 837
+multiplicity: 1
+size: 10
+src: (1147, 0)
+snk: (1151, 1)
+src_1_circ: -
+src_uuset: (1152, 0)
+snk_1_circ: -
+snk_ddset: (1146, 1)
+
+interval 838
+multiplicity: 1
+size: 1
+src: (1148, 1)
+snk: (1148, 1)
+src_1_circ: -
+src_uuset: (1149, 1)
+snk_1_circ: -
+snk_ddset: (1147, 1) (1148, 0)
+
+interval 839
+multiplicity: 1
+size: 720
+src: (1150, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1150, 1)
+snk_1_circ: -
+snk_ddset: (1149, 0)
+
+interval 842
+multiplicity: 1
+size: 84
+src: (1155, 0)
+snk: (1196, 1)
+src_1_circ: -
+src_uuset: (1197, 0)
+snk_1_circ: -
+snk_ddset: (1154, 1)
+
+interval 843
+multiplicity: 1
+size: 4
+src: (1157, 1)
+snk: (1160, 1)
+src_1_circ: -
+src_uuset: (1161, 1)
+snk_1_circ: -
+snk_ddset: (1156, 1) (1160, 0)
+
+interval 847
+multiplicity: 1
+size: 36
+src: (1159, 1)
+snk: (1194, 1)
+src_1_circ: -
+src_uuset: (1195, 1)
+snk_1_circ: -
+snk_ddset: (1158, 1) (1194, 0)
+
+interval 848
+multiplicity: 1
+size: 7
+src: (1163, 1)
+snk: (1169, 1)
+src_1_circ: -
+src_uuset: (1170, 1)
+snk_1_circ: -
+snk_ddset: (1162, 1) (1169, 0)
+
+interval 851
+multiplicity: 1
+size: 9
+src: (1168, 1)
+snk: (1176, 1)
+src_1_circ: -
+src_uuset: (1177, 1)
+snk_1_circ: -
+snk_ddset: (1167, 1) (1176, 0)
+
+interval 853
+multiplicity: 1
+size: 30
+src: (1174, 0)
+snk: (1188, 1)
+src_1_circ: -
+src_uuset: (1189, 0)
+snk_1_circ: -
+snk_ddset: (1173, 1)
+
+interval 854
+multiplicity: 1
+size: 2
+src: (1175, 0)
+snk: (1175, 1)
+src_1_circ: -
+src_uuset: (1176, 0)
+snk_1_circ: -
+snk_ddset: (1174, 1)
+
+interval 855
+multiplicity: 1
+size: 1
+src: (1181, 1)
+snk: (1181, 1)
+src_1_circ: -
+src_uuset: (1182, 1)
+snk_1_circ: -
+snk_ddset: (1180, 1) (1181, 0)
+
+interval 856
+multiplicity: 1
+size: 1
+src: (1186, 1)
+snk: (1186, 1)
+src_1_circ: -
+src_uuset: (1187, 1)
+snk_1_circ: -
+snk_ddset: (1185, 1) (1186, 0)
+
+interval 864
+multiplicity: 1
+size: 858
+src: (1196, 0)
+snk: (1379, 1) (1869, 0)
+src_1_circ: -
+src_uuset: (1380, 1)
+snk_1_circ: (1379, 0)
+snk_ddset: (1195, 1)
+
+interval 865
+multiplicity: 1
+size: 8
+src: (1200, 1)
+snk: (1207, 1)
+src_1_circ: -
+src_uuset: (1208, 1)
+snk_1_circ: -
+snk_ddset: (1199, 1) (1207, 0)
+
+interval 867
+multiplicity: 1
+size: 667
+src: (1203, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1203, 1)
+snk_1_circ: -
+snk_ddset: (1202, 0)
+
+interval 869
+multiplicity: 1
+size: 8
+src: (1205, 1)
+snk: (1212, 1)
+src_1_circ: -
+src_uuset: (1213, 1)
+snk_1_circ: -
+snk_ddset: (1204, 1) (1212, 0)
+
+interval 871
+multiplicity: 1
+size: 7
+src: (1209, 1)
+snk: (1215, 1)
+src_1_circ: -
+src_uuset: (1216, 1)
+snk_1_circ: -
+snk_ddset: (1208, 1) (1215, 0)
+
+interval 872
+multiplicity: 1
+size: 1
+src: (1214, 1)
+snk: (1214, 1)
+src_1_circ: -
+src_uuset: (1215, 1)
+snk_1_circ: -
+snk_ddset: (1213, 1) (1214, 0)
+
+interval 879
+multiplicity: 1
+size: 292
+src: (1217, 1)
+snk: (1508, 1)
+src_1_circ: -
+src_uuset: (1509, 1)
+snk_1_circ: -
+snk_ddset: (1216, 1) (1508, 0)
+
+interval 889
+multiplicity: 1
+size: 692
+src: (1219, 0)
+snk: (1259, 1) (1869, 0)
+src_1_circ: -
+src_uuset: (1260, 1)
+snk_1_circ: (1259, 0)
+snk_ddset: (1218, 1)
+
+interval 895
+multiplicity: 1
+size: 55
+src: (1224, 1)
+snk: (1278, 1)
+src_1_circ: -
+src_uuset: (1279, 1)
+snk_1_circ: -
+snk_ddset: (1223, 1) (1278, 0)
+
+interval 898
+multiplicity: 1
+size: 23
+src: (1225, 1)
+snk: (1247, 1)
+src_1_circ: -
+src_uuset: (1248, 1)
+snk_1_circ: -
+snk_ddset: (1224, 1) (1247, 0)
+
+interval 899
+multiplicity: 1
+size: 2
+src: (1226, 1)
+snk: (1227, 1)
+src_1_circ: -
+src_uuset: (1228, 1)
+snk_1_circ: -
+snk_ddset: (1225, 1) (1227, 0)
+
+interval 907
+multiplicity: 1
+size: 68
+src: (1235, 1)
+snk: (1302, 1)
+src_1_circ: -
+src_uuset: (1303, 1)
+snk_1_circ: -
+snk_ddset: (1234, 1) (1302, 0)
+
+interval 908
+multiplicity: 1
+size: 10
+src: (1237, 0)
+snk: (1241, 1)
+src_1_circ: -
+src_uuset: (1242, 0)
+snk_1_circ: -
+snk_ddset: (1236, 1)
+
+interval 910
+multiplicity: 1
+size: 72
+src: (1238, 0)
+snk: (1273, 1)
+src_1_circ: -
+src_uuset: (1274, 0)
+snk_1_circ: -
+snk_ddset: (1237, 1)
+
+interval 912
+multiplicity: 1
+size: 8
+src: (1239, 0)
+snk: (1242, 1)
+src_1_circ: -
+src_uuset: (1243, 0)
+snk_1_circ: -
+snk_ddset: (1238, 1)
+
+interval 914
+multiplicity: 1
+size: 100
+src: (1244, 0)
+snk: (1293, 1)
+src_1_circ: -
+src_uuset: (1294, 0)
+snk_1_circ: -
+snk_ddset: (1243, 1)
+
+interval 915
+multiplicity: 1
+size: 4
+src: (1249, 0)
+snk: (1250, 1)
+src_1_circ: -
+src_uuset: (1251, 0)
+snk_1_circ: -
+snk_ddset: (1248, 1)
+
+interval 916
+multiplicity: 1
+size: 1
+src: (1253, 1)
+snk: (1253, 1)
+src_1_circ: -
+src_uuset: (1254, 1)
+snk_1_circ: -
+snk_ddset: (1252, 1) (1253, 0)
+
+interval 918
+multiplicity: 1
+size: 12
+src: (1257, 1)
+snk: (1268, 1)
+src_1_circ: -
+src_uuset: (1269, 1)
+snk_1_circ: -
+snk_ddset: (1256, 1) (1268, 0)
+
+interval 919
+multiplicity: 1
+size: 10
+src: (1258, 0)
+snk: (1262, 1)
+src_1_circ: -
+src_uuset: (1263, 0)
+snk_1_circ: -
+snk_ddset: (1257, 1)
+
+interval 921
+multiplicity: 1
+size: 50
+src: (1268, 0)
+snk: (1292, 1)
+src_1_circ: -
+src_uuset: (1293, 0)
+snk_1_circ: -
+snk_ddset: (1267, 1)
+
+interval 928
+multiplicity: 1
+size: 150
+src: (1270, 1)
+snk: (1419, 1)
+src_1_circ: -
+src_uuset: (1420, 1)
+snk_1_circ: -
+snk_ddset: (1269, 1) (1419, 0)
+
+interval 936
+multiplicity: 1
+size: 2
+src: (1273, 1)
+snk: (1274, 1)
+src_1_circ: -
+src_uuset: (1275, 1)
+snk_1_circ: -
+snk_ddset: (1272, 1) (1274, 0)
+
+interval 940
+multiplicity: 1
+size: 14
+src: (1277, 1)
+snk: (1290, 1)
+src_1_circ: -
+src_uuset: (1291, 1)
+snk_1_circ: -
+snk_ddset: (1276, 1) (1290, 0)
+
+interval 941
+multiplicity: 1
+size: 8
+src: (1281, 0)
+snk: (1284, 1)
+src_1_circ: -
+src_uuset: (1285, 0)
+snk_1_circ: -
+snk_ddset: (1280, 1)
+
+interval 942
+multiplicity: 1
+size: 4
+src: (1282, 0)
+snk: (1283, 1)
+src_1_circ: -
+src_uuset: (1284, 0)
+snk_1_circ: -
+snk_ddset: (1281, 1)
+
+interval 945
+multiplicity: 1
+size: 18
+src: (1283, 0)
+snk: (1291, 1)
+src_1_circ: -
+src_uuset: (1292, 0)
+snk_1_circ: -
+snk_ddset: (1282, 1)
+
+interval 949
+multiplicity: 1
+size: 22
+src: (1286, 0)
+snk: (1296, 1)
+src_1_circ: -
+src_uuset: (1297, 0)
+snk_1_circ: -
+snk_ddset: (1285, 1)
+
+interval 953
+multiplicity: 1
+size: 177
+src: (1298, 1)
+snk: (1474, 1)
+src_1_circ: -
+src_uuset: (1475, 1)
+snk_1_circ: -
+snk_ddset: (1297, 1) (1474, 0)
+
+interval 967
+multiplicity: 1
+size: 22
+src: (1300, 1)
+snk: (1321, 1)
+src_1_circ: -
+src_uuset: (1322, 1)
+snk_1_circ: -
+snk_ddset: (1299, 1) (1321, 0)
+
+interval 970
+multiplicity: 1
+size: 17
+src: (1302, 1)
+snk: (1318, 1)
+src_1_circ: -
+src_uuset: (1319, 1)
+snk_1_circ: -
+snk_ddset: (1301, 1) (1318, 0)
+
+interval 972
+multiplicity: 1
+size: 66
+src: (1304, 0)
+snk: (1336, 1)
+src_1_circ: -
+src_uuset: (1337, 0)
+snk_1_circ: -
+snk_ddset: (1303, 1)
+
+interval 975
+multiplicity: 1
+size: 27
+src: (1305, 1)
+snk: (1331, 1)
+src_1_circ: -
+src_uuset: (1332, 1)
+snk_1_circ: -
+snk_ddset: (1304, 1) (1331, 0)
+
+interval 980
+multiplicity: 1
+size: 562
+src: (1308, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1308, 1)
+snk_1_circ: -
+snk_ddset: (1307, 0)
+
+interval 984
+multiplicity: 1
+size: 64
+src: (1312, 1)
+snk: (1375, 1)
+src_1_circ: -
+src_uuset: (1376, 1)
+snk_1_circ: -
+snk_ddset: (1311, 1) (1375, 0)
+
+interval 990
+multiplicity: 1
+size: 15
+src: (1313, 1)
+snk: (1327, 1)
+src_1_circ: -
+src_uuset: (1328, 1)
+snk_1_circ: -
+snk_ddset: (1312, 1) (1327, 0)
+
+interval 996
+multiplicity: 1
+size: 41
+src: (1316, 1)
+snk: (1356, 1)
+src_1_circ: -
+src_uuset: (1357, 1)
+snk_1_circ: -
+snk_ddset: (1315, 1) (1356, 0)
+
+interval 1004
+multiplicity: 1
+size: 16
+src: (1320, 1)
+snk: (1335, 1)
+src_1_circ: -
+src_uuset: (1336, 1)
+snk_1_circ: -
+snk_ddset: (1319, 1) (1335, 0)
+
+interval 1015
+multiplicity: 1
+size: 83
+src: (1321, 1)
+snk: (1403, 1)
+src_1_circ: -
+src_uuset: (1404, 1)
+snk_1_circ: -
+snk_ddset: (1320, 1) (1403, 0)
+
+interval 1028
+multiplicity: 1
+size: 7
+src: (1326, 1)
+snk: (1332, 1)
+src_1_circ: -
+src_uuset: (1333, 1)
+snk_1_circ: -
+snk_ddset: (1325, 1) (1332, 0)
+
+interval 1042
+multiplicity: 1
+size: 149
+src: (1329, 1)
+snk: (1477, 1)
+src_1_circ: -
+src_uuset: (1478, 1)
+snk_1_circ: -
+snk_ddset: (1328, 1) (1477, 0)
+
+interval 1057
+multiplicity: 1
+size: 52
+src: (1338, 1)
+snk: (1389, 1)
+src_1_circ: -
+src_uuset: (1390, 1)
+snk_1_circ: -
+snk_ddset: (1337, 1) (1389, 0)
+
+interval 1059
+multiplicity: 1
+size: 13
+src: (1339, 1)
+snk: (1351, 1)
+src_1_circ: -
+src_uuset: (1352, 1)
+snk_1_circ: -
+snk_ddset: (1338, 1) (1351, 0)
+
+interval 1060
+multiplicity: 1
+size: 1
+src: (1340, 1)
+snk: (1340, 1)
+src_1_circ: -
+src_uuset: (1341, 1)
+snk_1_circ: -
+snk_ddset: (1339, 1) (1340, 0)
+
+interval 1062
+multiplicity: 1
+size: 5
+src: (1349, 1)
+snk: (1353, 1)
+src_1_circ: -
+src_uuset: (1354, 1)
+snk_1_circ: -
+snk_ddset: (1348, 1) (1353, 0)
+
+interval 1064
+multiplicity: 1
+size: 7
+src: (1356, 1) (1361, 0)
+snk: (1361, 1)
+src_1_circ: (1361, 1)
+src_uuset: (1362, 0)
+snk_1_circ: -
+snk_ddset: (1355, 1) (1360, 0)
+
+interval 1065
+multiplicity: 1
+size: 10
+src: (1359, 1)
+snk: (1368, 1)
+src_1_circ: -
+src_uuset: (1369, 1)
+snk_1_circ: -
+snk_ddset: (1358, 1) (1368, 0)
+
+interval 1068
+multiplicity: 1
+size: 7
+src: (1366, 1)
+snk: (1372, 1)
+src_1_circ: -
+src_uuset: (1373, 1)
+snk_1_circ: -
+snk_ddset: (1365, 1) (1372, 0)
+
+interval 1078
+multiplicity: 1
+size: 282
+src: (1374, 1)
+snk: (1655, 1)
+src_1_circ: -
+src_uuset: (1656, 1)
+snk_1_circ: -
+snk_ddset: (1373, 1) (1655, 0)
+
+interval 1105
+multiplicity: 1
+size: 3
+src: (1375, 1)
+snk: (1377, 1)
+src_1_circ: -
+src_uuset: (1378, 1)
+snk_1_circ: -
+snk_ddset: (1374, 1) (1377, 0)
+
+interval 1114
+multiplicity: 1
+size: 273
+src: (1379, 1)
+snk: (1651, 1)
+src_1_circ: -
+src_uuset: (1652, 1)
+snk_1_circ: -
+snk_ddset: (1378, 1) (1651, 0)
+
+interval 1140
+multiplicity: 1
+size: 484
+src: (1386, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1386, 1)
+snk_1_circ: -
+snk_ddset: (1385, 0)
+
+interval 1186
+multiplicity: 1
+size: 32
+src: (1389, 1)
+snk: (1420, 1)
+src_1_circ: -
+src_uuset: (1421, 1)
+snk_1_circ: -
+snk_ddset: (1388, 1) (1420, 0)
+
+interval 1192
+multiplicity: 1
+size: 474
+src: (1396, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1396, 1)
+snk_1_circ: -
+snk_ddset: (1395, 0)
+
+interval 1198
+multiplicity: 1
+size: 84
+src: (1400, 1)
+snk: (1483, 1)
+src_1_circ: -
+src_uuset: (1484, 1)
+snk_1_circ: -
+snk_ddset: (1399, 1) (1483, 0)
+
+interval 1204
+multiplicity: 1
+size: 1
+src: (1405, 1)
+snk: (1405, 1)
+src_1_circ: -
+src_uuset: (1406, 1)
+snk_1_circ: -
+snk_ddset: (1404, 1) (1405, 0)
+
+interval 1205
+multiplicity: 1
+size: 460
+src: (1410, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1410, 1)
+snk_1_circ: -
+snk_ddset: (1409, 0)
+
+interval 1208
+multiplicity: 1
+size: 51
+src: (1411, 1)
+snk: (1461, 1)
+src_1_circ: -
+src_uuset: (1462, 1)
+snk_1_circ: -
+snk_ddset: (1410, 1) (1461, 0)
+
+interval 1212
+multiplicity: 1
+size: 51
+src: (1414, 1)
+snk: (1464, 1)
+src_1_circ: -
+src_uuset: (1465, 1)
+snk_1_circ: -
+snk_ddset: (1413, 1) (1464, 0)
+
+interval 1213
+multiplicity: 1
+size: 1
+src: (1417, 1)
+snk: (1417, 1)
+src_1_circ: -
+src_uuset: (1418, 1)
+snk_1_circ: -
+snk_ddset: (1416, 1) (1417, 0)
+
+interval 1221
+multiplicity: 1
+size: 67
+src: (1419, 1)
+snk: (1485, 1)
+src_1_circ: -
+src_uuset: (1486, 1)
+snk_1_circ: -
+snk_ddset: (1418, 1) (1485, 0)
+
+interval 1229
+multiplicity: 1
+size: 158
+src: (1422, 1)
+snk: (1579, 1)
+src_1_circ: -
+src_uuset: (1580, 1)
+snk_1_circ: -
+snk_ddset: (1421, 1) (1579, 0)
+
+interval 1230
+multiplicity: 1
+size: 3
+src: (1424, 1)
+snk: (1426, 1)
+src_1_circ: -
+src_uuset: (1427, 1)
+snk_1_circ: -
+snk_ddset: (1423, 1) (1426, 0)
+
+interval 1232
+multiplicity: 1
+size: 15
+src: (1425, 1)
+snk: (1439, 1)
+src_1_circ: -
+src_uuset: (1440, 1)
+snk_1_circ: -
+snk_ddset: (1424, 1) (1439, 0)
+
+interval 1233
+multiplicity: 1
+size: 1
+src: (1430, 1)
+snk: (1430, 1)
+src_1_circ: -
+src_uuset: (1431, 1)
+snk_1_circ: -
+snk_ddset: (1429, 1) (1430, 0)
+
+interval 1235
+multiplicity: 1
+size: 6
+src: (1437, 1)
+snk: (1442, 1)
+src_1_circ: -
+src_uuset: (1443, 1)
+snk_1_circ: -
+snk_ddset: (1436, 1) (1442, 0)
+
+interval 1236
+multiplicity: 1
+size: 2
+src: (1451, 1)
+snk: (1452, 1)
+src_1_circ: -
+src_uuset: (1453, 1)
+snk_1_circ: -
+snk_ddset: (1450, 1) (1452, 0)
+
+interval 1238
+multiplicity: 1
+size: 4
+src: (1452, 1)
+snk: (1455, 1)
+src_1_circ: -
+src_uuset: (1456, 1)
+snk_1_circ: -
+snk_ddset: (1451, 1) (1455, 0)
+
+interval 1239
+multiplicity: 1
+size: 4
+src: (1457, 1)
+snk: (1460, 1)
+src_1_circ: -
+src_uuset: (1461, 1)
+snk_1_circ: -
+snk_ddset: (1456, 1) (1460, 0)
+
+interval 1240
+multiplicity: 1
+size: 6
+src: (1466, 1)
+snk: (1471, 1)
+src_1_circ: -
+src_uuset: (1472, 1)
+snk_1_circ: -
+snk_ddset: (1465, 1) (1471, 0)
+
+interval 1241
+multiplicity: 1
+size: 1
+src: (1473, 1)
+snk: (1473, 1)
+src_1_circ: -
+src_uuset: (1474, 1)
+snk_1_circ: -
+snk_ddset: (1472, 1) (1473, 0)
+
+interval 1242
+multiplicity: 1
+size: 1
+src: (1476, 1)
+snk: (1476, 1)
+src_1_circ: -
+src_uuset: (1477, 1)
+snk_1_circ: -
+snk_ddset: (1475, 1) (1476, 0)
+
+interval 1243
+multiplicity: 1
+size: 1
+src: (1480, 1)
+snk: (1480, 1)
+src_1_circ: -
+src_uuset: (1481, 1)
+snk_1_circ: -
+snk_ddset: (1479, 1) (1480, 0)
+
+interval 1247
+multiplicity: 1
+size: 42
+src: (1483, 1)
+snk: (1524, 1)
+src_1_circ: -
+src_uuset: (1525, 1)
+snk_1_circ: -
+snk_ddset: (1482, 1) (1524, 0)
+
+interval 1248
+multiplicity: 1
+size: 4
+src: (1494, 0)
+snk: (1495, 1)
+src_1_circ: -
+src_uuset: (1496, 0)
+snk_1_circ: -
+snk_ddset: (1493, 1)
+
+interval 1251
+multiplicity: 1
+size: 75
+src: (1495, 1)
+snk: (1569, 1)
+src_1_circ: -
+src_uuset: (1570, 1)
+snk_1_circ: -
+snk_ddset: (1494, 1) (1569, 0)
+
+interval 1252
+multiplicity: 1
+size: 3
+src: (1497, 1)
+snk: (1499, 1)
+src_1_circ: -
+src_uuset: (1500, 1)
+snk_1_circ: -
+snk_ddset: (1496, 1) (1499, 0)
+
+interval 1254
+multiplicity: 1
+size: 29
+src: (1511, 1)
+snk: (1539, 1)
+src_1_circ: -
+src_uuset: (1540, 1)
+snk_1_circ: -
+snk_ddset: (1510, 1) (1539, 0)
+
+interval 1255
+multiplicity: 1
+size: 5
+src: (1514, 1)
+snk: (1518, 1)
+src_1_circ: -
+src_uuset: (1519, 1)
+snk_1_circ: -
+snk_ddset: (1513, 1) (1518, 0)
+
+interval 1257
+multiplicity: 1
+size: 8
+src: (1516, 1)
+snk: (1523, 1)
+src_1_circ: -
+src_uuset: (1524, 1)
+snk_1_circ: -
+snk_ddset: (1515, 1) (1523, 0)
+
+interval 1258
+multiplicity: 1
+size: 1
+src: (1520, 1)
+snk: (1520, 1)
+src_1_circ: -
+src_uuset: (1521, 1)
+snk_1_circ: -
+snk_ddset: (1519, 1) (1520, 0)
+
+interval 1262
+multiplicity: 1
+size: 87
+src: (1527, 1)
+snk: (1613, 1)
+src_1_circ: -
+src_uuset: (1614, 1)
+snk_1_circ: -
+snk_ddset: (1526, 1) (1613, 0)
+
+interval 1265
+multiplicity: 1
+size: 4
+src: (1528, 1)
+snk: (1531, 1)
+src_1_circ: -
+src_uuset: (1532, 1)
+snk_1_circ: -
+snk_ddset: (1527, 1) (1531, 0)
+
+interval 1270
+multiplicity: 1
+size: 90
+src: (1534, 1)
+snk: (1623, 1)
+src_1_circ: -
+src_uuset: (1624, 1)
+snk_1_circ: -
+snk_ddset: (1533, 1) (1623, 0)
+
+interval 1280
+multiplicity: 1
+size: 105
+src: (1536, 1)
+snk: (1640, 1)
+src_1_circ: -
+src_uuset: (1641, 1)
+snk_1_circ: -
+snk_ddset: (1535, 1) (1640, 0)
+
+interval 1290
+multiplicity: 1
+size: 74
+src: (1538, 1)
+snk: (1611, 1)
+src_1_circ: -
+src_uuset: (1612, 1)
+snk_1_circ: -
+snk_ddset: (1537, 1) (1611, 0)
+
+interval 1293
+multiplicity: 1
+size: 19
+src: (1548, 1)
+snk: (1566, 1)
+src_1_circ: -
+src_uuset: (1567, 1)
+snk_1_circ: -
+snk_ddset: (1547, 1) (1566, 0)
+
+interval 1296
+multiplicity: 1
+size: 16
+src: (1557, 1)
+snk: (1572, 1)
+src_1_circ: -
+src_uuset: (1573, 1)
+snk_1_circ: -
+snk_ddset: (1556, 1) (1572, 0)
+
+interval 1299
+multiplicity: 1
+size: 13
+src: (1559, 1)
+snk: (1571, 1)
+src_1_circ: -
+src_uuset: (1572, 1)
+snk_1_circ: -
+snk_ddset: (1558, 1) (1571, 0)
+
+interval 1300
+multiplicity: 1
+size: 1
+src: (1560, 1)
+snk: (1560, 1)
+src_1_circ: -
+src_uuset: (1561, 1)
+snk_1_circ: -
+snk_ddset: (1559, 1) (1560, 0)
+
+interval 1301
+multiplicity: 1
+size: 4
+src: (1562, 1)
+snk: (1565, 1)
+src_1_circ: -
+src_uuset: (1566, 1)
+snk_1_circ: -
+snk_ddset: (1561, 1) (1565, 0)
+
+interval 1302
+multiplicity: 1
+size: 1
+src: (1563, 1)
+snk: (1563, 1)
+src_1_circ: -
+src_uuset: (1564, 1)
+snk_1_circ: -
+snk_ddset: (1562, 1) (1563, 0)
+
+interval 1305
+multiplicity: 1
+size: 12
+src: (1581, 1)
+snk: (1592, 1)
+src_1_circ: -
+src_uuset: (1593, 1)
+snk_1_circ: -
+snk_ddset: (1580, 1) (1592, 0)
+
+interval 1307
+multiplicity: 1
+size: 14
+src: (1583, 0)
+snk: (1589, 1)
+src_1_circ: -
+src_uuset: (1590, 0)
+snk_1_circ: -
+snk_ddset: (1582, 1)
+
+interval 1308
+multiplicity: 1
+size: 2
+src: (1586, 1)
+snk: (1587, 1)
+src_1_circ: -
+src_uuset: (1588, 1)
+snk_1_circ: -
+snk_ddset: (1585, 1) (1587, 0)
+
+interval 1310
+multiplicity: 1
+size: 2
+src: (1594, 1)
+snk: (1595, 1)
+src_1_circ: -
+src_uuset: (1596, 1)
+snk_1_circ: -
+snk_ddset: (1593, 1) (1595, 0)
+
+interval 1311
+multiplicity: 1
+size: 271
+src: (1599, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1599, 1)
+snk_1_circ: -
+snk_ddset: (1598, 0)
+
+interval 1312
+multiplicity: 1
+size: 7
+src: (1602, 1)
+snk: (1608, 1)
+src_1_circ: -
+src_uuset: (1609, 1)
+snk_1_circ: -
+snk_ddset: (1601, 1) (1608, 0)
+
+interval 1321
+multiplicity: 1
+size: 63
+src: (1605, 1)
+snk: (1667, 1)
+src_1_circ: -
+src_uuset: (1668, 1)
+snk_1_circ: -
+snk_ddset: (1604, 1) (1667, 0)
+
+interval 1326
+multiplicity: 1
+size: 28
+src: (1608, 1)
+snk: (1635, 1)
+src_1_circ: -
+src_uuset: (1636, 1)
+snk_1_circ: -
+snk_ddset: (1607, 1) (1635, 0)
+
+interval 1328
+multiplicity: 1
+size: 2
+src: (1611, 1)
+snk: (1612, 1)
+src_1_circ: -
+src_uuset: (1613, 1)
+snk_1_circ: -
+snk_ddset: (1610, 1) (1612, 0)
+
+interval 1329
+multiplicity: 1
+size: 7
+src: (1615, 1)
+snk: (1621, 1)
+src_1_circ: -
+src_uuset: (1622, 1)
+snk_1_circ: -
+snk_ddset: (1614, 1) (1621, 0)
+
+interval 1330
+multiplicity: 1
+size: 2
+src: (1616, 1)
+snk: (1617, 1)
+src_1_circ: -
+src_uuset: (1618, 1)
+snk_1_circ: -
+snk_ddset: (1615, 1) (1617, 0)
+
+interval 1343
+multiplicity: 1
+size: 115
+src: (1617, 1)
+snk: (1731, 1)
+src_1_circ: -
+src_uuset: (1732, 1)
+snk_1_circ: -
+snk_ddset: (1616, 1) (1731, 0)
+
+interval 1358
+multiplicity: 1
+size: 73
+src: (1621, 1)
+snk: (1693, 1)
+src_1_circ: -
+src_uuset: (1694, 1)
+snk_1_circ: -
+snk_ddset: (1620, 1) (1693, 0)
+
+interval 1370
+multiplicity: 1
+size: 66
+src: (1623, 1)
+snk: (1688, 1)
+src_1_circ: -
+src_uuset: (1689, 1)
+snk_1_circ: -
+snk_ddset: (1622, 1) (1688, 0)
+
+interval 1383
+multiplicity: 1
+size: 81
+src: (1625, 1)
+snk: (1705, 1)
+src_1_circ: -
+src_uuset: (1706, 1)
+snk_1_circ: -
+snk_ddset: (1624, 1) (1705, 0)
+
+interval 1390
+multiplicity: 1
+size: 11
+src: (1627, 1)
+snk: (1637, 1)
+src_1_circ: -
+src_uuset: (1638, 1)
+snk_1_circ: -
+snk_ddset: (1626, 1) (1637, 0)
+
+interval 1391
+multiplicity: 1
+size: 4
+src: (1631, 1)
+snk: (1634, 1)
+src_1_circ: -
+src_uuset: (1635, 1)
+snk_1_circ: -
+snk_ddset: (1630, 1) (1634, 0)
+
+interval 1398
+multiplicity: 1
+size: 22
+src: (1632, 1)
+snk: (1653, 1)
+src_1_circ: -
+src_uuset: (1654, 1)
+snk_1_circ: -
+snk_ddset: (1631, 1) (1653, 0)
+
+interval 1399
+multiplicity: 1
+size: 1
+src: (1642, 1)
+snk: (1642, 1)
+src_1_circ: -
+src_uuset: (1643, 1)
+snk_1_circ: -
+snk_ddset: (1641, 1) (1642, 0)
+
+interval 1400
+multiplicity: 1
+size: 1
+src: (1644, 1)
+snk: (1644, 1)
+src_1_circ: -
+src_uuset: (1645, 1)
+snk_1_circ: -
+snk_ddset: (1643, 1) (1644, 0)
+
+interval 1401
+multiplicity: 1
+size: 1
+src: (1649, 1)
+snk: (1649, 1)
+src_1_circ: -
+src_uuset: (1650, 1)
+snk_1_circ: -
+snk_ddset: (1648, 1) (1649, 0)
+
+interval 1403
+multiplicity: 1
+size: 2
+src: (1651, 1)
+snk: (1652, 1)
+src_1_circ: -
+src_uuset: (1653, 1)
+snk_1_circ: -
+snk_ddset: (1650, 1) (1652, 0)
+
+interval 1405
+multiplicity: 1
+size: 5
+src: (1655, 1)
+snk: (1659, 1)
+src_1_circ: -
+src_uuset: (1660, 1)
+snk_1_circ: -
+snk_ddset: (1654, 1) (1659, 0)
+
+interval 1408
+multiplicity: 1
+size: 18
+src: (1657, 1)
+snk: (1674, 1)
+src_1_circ: -
+src_uuset: (1675, 1)
+snk_1_circ: -
+snk_ddset: (1656, 1) (1674, 0)
+
+interval 1410
+multiplicity: 1
+size: 1
+src: (1658, 1)
+snk: (1658, 1)
+src_1_circ: -
+src_uuset: (1659, 1)
+snk_1_circ: -
+snk_ddset: (1657, 1) (1658, 0)
+
+interval 1417
+multiplicity: 1
+size: 38
+src: (1661, 1)
+snk: (1698, 1)
+src_1_circ: -
+src_uuset: (1699, 1)
+snk_1_circ: -
+snk_ddset: (1660, 1) (1698, 0)
+
+interval 1424
+multiplicity: 1
+size: 1
+src: (1662, 1)
+snk: (1662, 1)
+src_1_circ: -
+src_uuset: (1663, 1)
+snk_1_circ: -
+snk_ddset: (1661, 1) (1662, 0)
+
+interval 1426
+multiplicity: 1
+size: 12
+src: (1670, 1)
+snk: (1681, 1)
+src_1_circ: -
+src_uuset: (1682, 1)
+snk_1_circ: -
+snk_ddset: (1669, 1) (1681, 0)
+
+interval 1430
+multiplicity: 1
+size: 8
+src: (1671, 1)
+snk: (1678, 1)
+src_1_circ: -
+src_uuset: (1679, 1)
+snk_1_circ: -
+snk_ddset: (1670, 1) (1678, 0)
+
+interval 1433
+multiplicity: 1
+size: 198
+src: (1672, 0)
+snk: (1869, 0)
+src_1_circ: -
+src_uuset: (1672, 1)
+snk_1_circ: -
+snk_ddset: (1671, 0)
+
+interval 1443
+multiplicity: 1
+size: 43
+src: (1677, 1)
+snk: (1719, 1)
+src_1_circ: -
+src_uuset: (1720, 1)
+snk_1_circ: -
+snk_ddset: (1676, 1) (1719, 0)
+
+interval 1448
+multiplicity: 1
+size: 13
+src: (1680, 1)
+snk: (1692, 1)
+src_1_circ: -
+src_uuset: (1693, 1)
+snk_1_circ: -
+snk_ddset: (1679, 1) (1692, 0)
+
+interval 1449
+multiplicity: 1
+size: 1
+src: (1684, 1)
+snk: (1684, 1)
+src_1_circ: -
+src_uuset: (1685, 1)
+snk_1_circ: -
+snk_ddset: (1683, 1) (1684, 0)
+
+interval 1457
+multiplicity: 1
+size: 23
+src: (1687, 1)
+snk: (1709, 1)
+src_1_circ: -
+src_uuset: (1710, 1)
+snk_1_circ: -
+snk_ddset: (1686, 1) (1709, 0)
+
+interval 1463
+multiplicity: 1
+size: 19
+src: (1692, 1)
+snk: (1710, 1)
+src_1_circ: -
+src_uuset: (1711, 1)
+snk_1_circ: -
+snk_ddset: (1691, 1) (1710, 0)
+
+interval 1464
+multiplicity: 1
+size: 1
+src: (1696, 1)
+snk: (1696, 1)
+src_1_circ: -
+src_uuset: (1697, 1)
+snk_1_circ: -
+snk_ddset: (1695, 1) (1696, 0)
+
+interval 1465
+multiplicity: 1
+size: 3
+src: (1701, 1)
+snk: (1703, 1)
+src_1_circ: -
+src_uuset: (1704, 1)
+snk_1_circ: -
+snk_ddset: (1700, 1) (1703, 0)
+
+interval 1470
+multiplicity: 1
+size: 12
+src: (1709, 1)
+snk: (1720, 1)
+src_1_circ: -
+src_uuset: (1721, 1)
+snk_1_circ: -
+snk_ddset: (1708, 1) (1720, 0)
+
+interval 1472
+multiplicity: 1
+size: 100
+src: (1722, 1)
+snk: (1821, 1)
+src_1_circ: -
+src_uuset: (1822, 1)
+snk_1_circ: -
+snk_ddset: (1721, 1) (1821, 0)
+
+interval 1474
+multiplicity: 1
+size: 29
+src: (1729, 1)
+snk: (1757, 1)
+src_1_circ: -
+src_uuset: (1758, 1)
+snk_1_circ: -
+snk_ddset: (1728, 1) (1757, 0)
+
+interval 1477
+multiplicity: 1
+size: 86
+src: (1730, 1)
+snk: (1815, 1)
+src_1_circ: -
+src_uuset: (1816, 1)
+snk_1_circ: -
+snk_ddset: (1729, 1) (1815, 0)
+
+interval 1478
+multiplicity: 1
+size: 14
+src: (1733, 1)
+snk: (1746, 1)
+src_1_circ: -
+src_uuset: (1747, 1)
+snk_1_circ: -
+snk_ddset: (1732, 1) (1746, 0)
+
+interval 1479
+multiplicity: 1
+size: 1
+src: (1734, 1)
+snk: (1734, 1)
+src_1_circ: -
+src_uuset: (1735, 1)
+snk_1_circ: -
+snk_ddset: (1733, 1) (1734, 0)
+
+interval 1482
+multiplicity: 1
+size: 59
+src: (1737, 1)
+snk: (1795, 1)
+src_1_circ: -
+src_uuset: (1796, 1)
+snk_1_circ: -
+snk_ddset: (1736, 1) (1795, 0)
+
+interval 1484
+multiplicity: 1
+size: 17
+src: (1740, 1)
+snk: (1756, 1)
+src_1_circ: -
+src_uuset: (1757, 1)
+snk_1_circ: -
+snk_ddset: (1739, 1) (1756, 0)
+
+interval 1488
+multiplicity: 1
+size: 34
+src: (1745, 1)
+snk: (1778, 1)
+src_1_circ: -
+src_uuset: (1779, 1)
+snk_1_circ: -
+snk_ddset: (1744, 1) (1778, 0)
+
+interval 1490
+multiplicity: 1
+size: 2
+src: (1746, 1)
+snk: (1747, 1)
+src_1_circ: -
+src_uuset: (1748, 1)
+snk_1_circ: -
+snk_ddset: (1745, 1) (1747, 0)
+
+interval 1491
+multiplicity: 1
+size: 1
+src: (1749, 1)
+snk: (1749, 1)
+src_1_circ: -
+src_uuset: (1750, 1)
+snk_1_circ: -
+snk_ddset: (1748, 1) (1749, 0)
+
+interval 1495
+multiplicity: 1
+size: 36
+src: (1755, 1)
+snk: (1790, 1)
+src_1_circ: -
+src_uuset: (1791, 1)
+snk_1_circ: -
+snk_ddset: (1754, 1) (1790, 0)
+
+interval 1501
+multiplicity: 1
+size: 65
+src: (1761, 1)
+snk: (1825, 1)
+src_1_circ: -
+src_uuset: (1826, 1)
+snk_1_circ: -
+snk_ddset: (1760, 1) (1825, 0)
+
+interval 1505
+multiplicity: 1
+size: 37
+src: (1764, 1)
+snk: (1800, 1)
+src_1_circ: -
+src_uuset: (1801, 1)
+snk_1_circ: -
+snk_ddset: (1763, 1) (1800, 0)
+
+interval 1507
+multiplicity: 1
+size: 23
+src: (1765, 1)
+snk: (1787, 1)
+src_1_circ: -
+src_uuset: (1788, 1)
+snk_1_circ: -
+snk_ddset: (1764, 1) (1787, 0)
+
+interval 1509
+multiplicity: 1
+size: 16
+src: (1766, 1)
+snk: (1781, 1)
+src_1_circ: -
+src_uuset: (1782, 1)
+snk_1_circ: -
+snk_ddset: (1765, 1) (1781, 0)
+
+interval 1510
+multiplicity: 1
+size: 6
+src: (1767, 1)
+snk: (1772, 1)
+src_1_circ: -
+src_uuset: (1773, 1)
+snk_1_circ: -
+snk_ddset: (1766, 1) (1772, 0)
+
+interval 1511
+multiplicity: 1
+size: 2
+src: (1769, 1)
+snk: (1770, 1)
+src_1_circ: -
+src_uuset: (1771, 1)
+snk_1_circ: -
+snk_ddset: (1768, 1) (1770, 0)
+
+interval 1513
+multiplicity: 1
+size: 2
+src: (1770, 1)
+snk: (1771, 1)
+src_1_circ: -
+src_uuset: (1772, 1)
+snk_1_circ: -
+snk_ddset: (1769, 1) (1771, 0)
+
+interval 1514
+multiplicity: 1
+size: 3
+src: (1775, 1)
+snk: (1777, 1)
+src_1_circ: -
+src_uuset: (1778, 1)
+snk_1_circ: -
+snk_ddset: (1774, 1) (1777, 0)
+
+interval 1515
+multiplicity: 1
+size: 1
+src: (1786, 1)
+snk: (1786, 1)
+src_1_circ: -
+src_uuset: (1787, 1)
+snk_1_circ: -
+snk_ddset: (1785, 1) (1786, 0)
+
+interval 1517
+multiplicity: 1
+size: 6
+src: (1792, 1)
+snk: (1797, 1)
+src_1_circ: -
+src_uuset: (1798, 1)
+snk_1_circ: -
+snk_ddset: (1791, 1) (1797, 0)
+
+interval 1521
+multiplicity: 1
+size: 15
+src: (1795, 1)
+snk: (1809, 1)
+src_1_circ: -
+src_uuset: (1810, 1)
+snk_1_circ: -
+snk_ddset: (1794, 1) (1809, 0)
+
+interval 1523
+multiplicity: 1
+size: 8
+src: (1800, 1)
+snk: (1807, 1)
+src_1_circ: -
+src_uuset: (1808, 1)
+snk_1_circ: -
+snk_ddset: (1799, 1) (1807, 0)
+
+interval 1526
+multiplicity: 1
+size: 8
+src: (1803, 1)
+snk: (1810, 1)
+src_1_circ: -
+src_uuset: (1811, 1)
+snk_1_circ: -
+snk_ddset: (1802, 1) (1810, 0)
+
+interval 1527
+multiplicity: 1
+size: 1
+src: (1804, 1)
+snk: (1804, 1)
+src_1_circ: -
+src_uuset: (1805, 1)
+snk_1_circ: -
+snk_ddset: (1803, 1) (1804, 0)
+
+interval 1528
+multiplicity: 1
+size: 2
+src: (1812, 1)
+snk: (1813, 1)
+src_1_circ: -
+src_uuset: (1814, 1)
+snk_1_circ: -
+snk_ddset: (1811, 1) (1813, 0)
+
+interval 1529
+multiplicity: 1
+size: 1
+src: (1824, 1)
+snk: (1824, 1)
+src_1_circ: -
+src_uuset: (1825, 1)
+snk_1_circ: -
+snk_ddset: (1823, 1) (1824, 0)
+
+interval 1530
+multiplicity: 1
+size: 5
+src: (1827, 1)
+snk: (1831, 1)
+src_1_circ: -
+src_uuset: (1832, 1)
+snk_1_circ: -
+snk_ddset: (1826, 1) (1831, 0)

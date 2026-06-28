@@ -13,6 +13,107 @@ def flatten(xss):
     """Flatten a list of lists."""
     return [x for xs in xss for x in xs]
 
+# #  --- Nodes translations ---
+# def moveright(node):
+#     return (node[0], node[1] + 1)
+
+# def moveleft(node):
+#     return (node[0], node[1] - 1)
+
+# def movedown(node):
+#     return (node[0] - 1, node[1])
+
+# def moveup(node):
+#     return (node[0] + 1, node[1])
+
+# def moveleftdown(node):
+#     return (node[0] - 1, node[1] - 1)
+
+# # --- Convert dimvec to lists ---
+# def dimvec_visual_grid(grid_str):
+#     # 1. Strip leading/trailing whitespace and split by line.
+#     # splitlines() handles newline characters automatically.
+#     lines = grid_str.strip().splitlines()
+#     total_rows = len(lines)
+#     support_list = []
+
+#     # 2. Iterate over each row string.
+#     for i, line in enumerate(lines):
+#         # --- Key coordinate conversion ---
+#         # The i-th string row is counted from top to bottom, i=0, 1, ...
+#         # The corresponding actual coordinate r should count downward from the maximum row to 0.
+#         r = total_rows - 1 - i
+        
+#         # 3. Clean the data: allow "0 1 0" with spaces or compact "010" input.
+#         # Remove all spaces directly.
+#         clean_line = line.replace(" ", "")
+        
+#         # 4. Iterate over columns.
+#         for c, char in enumerate(clean_line):
+#             if char == '1':
+#                 support_list.append((r, c))
+    
+#     # Sort the result for readability, first by row and then by column.
+#     support_list.sort(key=lambda x: (x[0], x[1]))
+    
+#     return support_list, [total_rows, len(lines[0].replace(" ", ""))]
+
+
+# # --- Convex hull of an interval (independent of representations)---
+# def generate_nodes_Rfree(gridsize):
+#     nodes = []
+#     gsize = gridsize
+#     for coordinates in generate_coordinates_Rfree(gsize):
+#         nodes.append(tuple(coordinates))
+#     return nodes
+
+# def generate_coordinates_Rfree(gridsize, current_dim=0, current_coords=None):
+#     gsize = gridsize
+#     if current_coords is None:
+#         current_coords = []
+#     if current_dim == len(gsize):
+#         return [tuple(current_coords)]
+#     coordinates = []
+#     for i in range(gsize[current_dim]):
+#         new_coords = current_coords + [i]
+#         coordinates.extend(generate_coordinates_Rfree(gsize, current_dim + 1, new_coords))
+#     return coordinates
+
+# def is_smaller_Rfree(node1, node2, gridsize):
+#     return all(node1[i] <= node2[i] for i in range(len(gridsize)))
+
+# def convex_square_Rfree(node1, node2, gridsize):
+#     gsize = gridsize
+#     if not is_smaller_Rfree(node1, node2, gsize):
+#         return []
+#     points = []
+#     for coordinates in generate_nodes_Rfree(gsize):
+#         if all(node1[i] <= coordinates[i] <= node2[i] for i in range(len(gsize))):
+#             points.append(tuple(coordinates))
+#     return points
+
+# def int_hull_Rfree(interval, gridsize):
+#     points = []
+#     gsize = gridsize
+#     for src in interval.src:
+#         for snk in interval.snk:
+#             points += convex_square_Rfree(src, snk, gsize)
+#     points = list(set(points))
+#     for pt in points[:]:
+#         if to_be_removed_Rfree(pt, interval, gsize):
+#             points.remove(pt)
+#     return points
+
+# def to_be_removed_Rfree(point, interval, gridsize):
+#     for src in interval.src:
+#         if is_smaller_Rfree(point, src, gridsize) and point != src:
+#             return True
+#     for snk in interval.snk:
+#         if is_smaller_Rfree(snk, point, gridsize) and point != snk:
+#             return True
+#     return False
+
+
 # --- Interval Class ---
 class Interval:
     """Define intervals by their sources and sinks."""
@@ -142,14 +243,27 @@ class Representation:
         return True
 
 ##########################################
+# --- New feature, Liu ---
     # --- Compute the dimension of an interval representation ---
     def int_dim(self, interval):
         return len(self.int_hull(interval))
 
+    # # --- Compute the dimension vector of an interval representation ---
+    # def int_dimvec(self, points, gridsize):
+    #     rows, cols = gridsize
+    #     dimvec = sp.zeros(rows, cols)
+    #     for r, c in points:
+    #         if 0 <= r < rows and 0 <= c < cols:
+    #             dimvec[r, c] = 1
+
+    #     for i in range(rows - 1, -1, -1):
+    #         array_str = "".join(str(dimvec[i, j]) for j in range(cols))
+    #         print(array_str)
+
     # --- Compute the dimension of the input representation ---
     def dim(self):
         return sum(self.vecs[node] for node in self.nodes)
-        
+ 
     # --- Find proper sources and sinks ---
     def get_prop_src_snk(self, points):
         '''
@@ -181,7 +295,183 @@ class Representation:
             tuple_0 = (max(vals_0) + 1, min(vals_0))
             tuple_1 = (min(vals_1), max(vals_1) + 1)
             return [tuple_0, tuple_1]
-##########################################     
+##########################################
+# --- New feature (int_apprx), Liu ---
+    # # --- List rays of fixed nodes ---
+    # def get_horizontal_right_ray_nodes(self, node, bound):
+    #     """
+    #     Return a list of nodes having the same 1st coordinate as 'node',
+    #     but with 2nd coordinate >= node[1], up to the dimension limit 'bound'.
+    #     """
+    #     x, start_y = node
+    #     # Generate nodes: (x, y) for y in [start_y, bound - 1]
+    #     return [(x, y) for y in range(start_y, bound)]
+
+    # def get_horizontal_left_ray_nodes(self, node):
+    #     """
+    #     Return a list of nodes having the same 1st coordinate as 'node',
+    #     but with 2nd coordinate <= node[1], down to 0.
+    #     """
+    #     x, start_y = node
+    #     return [(x, y) for y in range(0, start_y + 1)]
+
+    # def get_vertical_up_ray_nodes(self, node, bound):
+    #     """
+    #     Return a list of nodes having the same 2nd coordinate as 'node',
+    #     but with 1st coordinate >= node[0], up to the dimension limit 'bound'.
+    #     """
+    #     start_x, y = node
+    #     # Generate nodes: (x, y) for x in [start_x, bound - 1]
+    #     return [(x, y) for x in range(start_x, bound)]
+
+    # def get_vertical_down_ray_nodes(self, node):
+    #     """
+    #     Return a list of nodes having the same 2nd coordinate as 'node',
+    #     but with 1st coordinate <= node[0], up to the dimension limit.
+    #     """
+    #     start_x, y = node
+    #     return [(x, y) for x in range(0, start_x + 1)]
+
+    # def out_of_grid(self, node):
+    #     dimensions_grid = self.dimensions
+    #     if node[0] not in range(0, dimensions_grid[0]) or node[1] not in range(0, dimensions_grid[1]):
+    #         return True
+    #     else:
+    #         return False
+        
+
+    # # --- Find proper sources ---
+    # def get_prop_src(self, points):
+    #     '''
+    #     For each interval I, compute the source of the proper up-set of I 
+    #     '''
+    #     src_temp =  self.get_src_snk(points)[0]
+    #     upset = Interval(src_temp, [self.nodes[-1]])
+    #     prop_up = [x for x in self.int_hull(upset) if x not in points]
+    #     prp_src = self.get_src_snk(prop_up)[0]
+    #     return prp_src
+
+    # # --- Find proper sinks ---
+    # def get_prop_snk(self, points):
+    #     '''
+    #     For each interval I, compute the sink of the proper down-set of I 
+    #     '''
+    #     snk_temp =  self.get_src_snk(points)[1]
+    #     downset = Interval([self.nodes[0]], snk_temp)
+    #     prop_down = [x for x in self.int_hull(downset) if x not in points]
+    #     prp_snk = self.get_src_snk(prop_down)[1]
+    #     return prp_snk
+
+    # # --- Determine whether an element is in given interval ---
+    # def is_in_interval(self, node, interval):
+    #     '''
+    #     Determine whether node is in interval by logic only, without generating the hull.
+    #     '''
+    #     # 1. Check whether the node lies in the convex-hull range, matching convex_square logic.
+    #     # It must be greater than at least one source and smaller than at least one sink.
+    #     larger_than_src = any(self.is_smaller(src, node) for src in interval.src)
+    #     smaller_than_snk = any(self.is_smaller(node, snk) for snk in interval.snk)
+    #     if not (larger_than_src and smaller_than_snk):
+    #         return False
+
+    #     # 2. Check whether the node should be removed, matching to_be_removed logic.
+    #     # It must not be strictly smaller than any source; if node < src and node != src, it is outside the interval.
+    #     for src in interval.src:
+    #         if self.is_smaller(node, src) and node != src:
+    #             return False
+
+    #     # It must not be strictly greater than any sink.
+    #     for snk in interval.snk:
+    #         if self.is_smaller(snk, node) and node != snk:
+    #             return False
+
+    #     return True
+
+    # # --- Radical approximations ---
+    # def right_rad_apprx_inj(self, interval):
+    #     '''
+    #     Find right radical approximations of a given interval where morphisms are injective
+    #     '''
+    #     points = self.int_hull(interval)
+    #     prp_snk = self.get_prop_snk(points)
+    #     x_bound = self.dimensions[0]
+    #     y_bound = self.dimensions[1]
+    #     right_rad_apprx_inj = []
+
+    #     for node in prp_snk:
+    #         cant_move_up = self.is_in_interval(moveup(node), interval)
+    #         cant_move_right = self.is_in_interval(moveright(node), interval)
+            
+    #         if cant_move_up and cant_move_right:
+    #             new_interval_hull = points + [node]
+    #             right_rad_apprx_inj.append(new_interval_hull)
+
+    #         elif cant_move_up and not cant_move_right:
+    #             new_interval_hull = points + self.get_horizontal_right_ray_nodes(node, y_bound)
+    #             right_rad_apprx_inj.append(new_interval_hull)
+
+    #         elif cant_move_right and not cant_move_up:
+    #             new_interval_hull = points + self.get_vertical_up_ray_nodes(node, x_bound)
+    #             right_rad_apprx_inj.append(new_interval_hull)
+                
+    #     return right_rad_apprx_inj
+
+    # def right_rad_apprx_surj(self, interval):
+    #     '''
+    #     Find right radical approximations of a given interval where morphisms are surjective
+    #     '''
+    #     points = self.int_hull(interval)
+    #     points_set = set(points)
+    #     snk = interval.snk
+    #     src = interval.src
+    #     x_bound = self.dimensions[0]
+    #     y_bound = self.dimensions[1]
+    #     right_rad_apprx_surj = []
+
+    #     for node in snk:
+    #         x_coord = node[0]
+    #         y_coord = node[1]
+    #         exists_in_int_leftdown = self.is_in_interval(moveleftdown(node), interval) or self.out_of_grid(moveleftdown(node))
+    #         exists_in_int_left = self.is_in_interval(moveleft(node), interval) or self.out_of_grid(moveleft(node))
+    #         exists_in_int_down = self.is_in_interval(movedown(node), interval) or self.out_of_grid(movedown(node))
+
+    #         if not exists_in_int_leftdown and not exists_in_int_left and not exists_in_int_down:
+    #             pass
+    #         elif not exists_in_int_leftdown and not exists_in_int_left and exists_in_int_down:
+    #             pass
+    #         elif not exists_in_int_leftdown and not exists_in_int_down and exists_in_int_left:
+    #             pass
+    #         elif not exists_in_int_leftdown and exists_in_int_down and exists_in_int_left:
+    #             should_remove_vertical = (self.is_in_interval((0, y_coord), interval) and not self.is_in_interval((0, y_coord + 1), interval))
+    #             should_remove_horizontal = (self.is_in_interval((x_coord, 0), interval) and not self.is_in_interval((x_coord + 1, 0), interval))
+
+    #             if should_remove_vertical:
+    #                 removal_nodes_v = self.get_vertical_down_ray_nodes(node)
+    #                 new_interval_hull_v = list(points_set - set(removal_nodes_v))
+    #                 right_rad_apprx_surj.append(new_interval_hull_v)
+
+    #             if should_remove_horizontal:
+    #                 removal_nodes_h = self.get_horizontal_left_ray_nodes(node)
+    #                 new_interval_hull_h = list(points_set - set(removal_nodes_h))
+    #                 right_rad_apprx_surj.append(new_interval_hull_h) 
+    #             # if self.is_in_interval((0, y_coord), interval) and not self.is_in_interval((0, y_coord + 1), interval):
+    #             #     removal_nodes = self.get_vertical_down_ray_nodes(node)
+    #             #     new_interval_hull = list(points_set - set(removal_nodes))
+    #             #     right_rad_apprx_surj.append(new_interval_hull)
+    #             # if self.is_in_interval((x_coord, 0), interval) and not self.is_in_interval((x_coord + 1, 0), interval):
+    #             #     removal_nodes = self.get_horizontal_left_ray_nodes(node)
+    #             #     new_interval_hull = list(points_set - set(removal_nodes))
+    #             #     right_rad_apprx_surj.append(new_interval_hull)
+    #         else:
+    #             new_interval_hull = list(points_set - set([node]))
+    #             if len(new_interval_hull) != 0:
+    #                 right_rad_apprx_surj.append(new_interval_hull)
+    #             else:
+    #                 pass
+
+    #     return right_rad_apprx_surj
+                
+##########################################   
 
     # --- Evaluation of a path ---
     def evaluation(self, node1, node2):
@@ -376,6 +666,7 @@ class Representation:
         return symbolic_rank(block) - symbolic_rank(M_safe) - symbolic_rank(N_safe)
 
 ##########################################
+# --- New feature, Liu ---
     # --- Choice map for proper sources and sinks --- 
     def find_source_indices_per_proper_src(self, interval):
         """
@@ -536,11 +827,11 @@ class Representation:
         C = sp.zeros(total_rows, total_cols)
 
         if mat.rows > 0 and mat.cols > 0:
-            # 确保 mat 不会超出 C 的范围 (理论上不会，因为 mat 只是局部，C 是整体)
+            # Ensure mat does not exceed the shape of C. This should not happen because mat is local and C is global.
             if mat.rows <= total_rows and mat.cols <= total_cols:
                 C[:mat.rows, :mat.cols] = mat
             else:
-                 # 极端防御：如果计算出的 mat 居然比总维数还大，说明逻辑有深层错误
+                 # Defensive fallback: if mat is larger than the total dimensions, there is a deeper logic error.
                 pass
 
         # M_pair_rows, M_pair_cols = M_pair.rows if M_pair.rows > 0 else 1, M_pair.cols if M_pair.cols > 0 else 1
@@ -588,6 +879,7 @@ class Representation:
 
         return symbolic_rank(block) - symbolic_rank(M_safe) - symbolic_rank(N_safe)
 ##########################################   
+
     # --- Interval replacement ---
     def int_replacement(self, interval, compression='tot'):
         repl = self.int_rank(interval, compression)

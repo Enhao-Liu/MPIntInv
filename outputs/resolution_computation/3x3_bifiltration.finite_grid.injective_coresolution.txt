@@ -1,0 +1,19 @@
+scc2020
+2
+2 2 1
+--field GF(2)
+# finite_grid_injective_coresolution
+# summand_kind: Q_G
+# minimal_expected: true
+# epsilon: 1 1
+# grid min: 0 0
+# grid max: 2 2
+# semantic note: matrix blocks are ordered b0, b1, ... for Q^0 -> Q^1 -> ... .
+# matrix block 1
+1 2 ; 1 2
+2 1 ; 1 2
+# matrix block 2
+0 1 ; 1
+1 0 ; 1
+# Row grades for final term
+0 0

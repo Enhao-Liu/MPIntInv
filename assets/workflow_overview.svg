@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="900" viewBox="0 0 1220 900" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow overview</title>
+  <desc id="desc">Two side-by-side vertical workflows. Rectangles are data objects and hexagons are operations carried out along the arrows.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .bg { fill: #ffffff; }
+      .panel-left { fill: #f8fbff; stroke: #b7c7dd; stroke-width: 1.4; }
+      .panel-right { fill: #fbfaf7; stroke: #d2c3a6; stroke-width: 1.4; }
+      .header { font: 700 22px Arial, Helvetica, sans-serif; fill: #111827; }
+      .subtitle { font: 600 15px Arial, Helvetica, sans-serif; fill: #334155; }
+      .legend { font: 12px Arial, Helvetica, sans-serif; fill: #64748b; }
+      .object-left { fill: #ffffff; stroke: #3b82f6; stroke-width: 1.6; }
+      .object-right { fill: #ffffff; stroke: #b7791f; stroke-width: 1.6; }
+      .operation-left { fill: #eaf3ff; stroke: #2563eb; stroke-width: 1.3; }
+      .operation-right { fill: #fff4da; stroke: #a16207; stroke-width: 1.3; }
+      .object-title { font: 700 15px Arial, Helvetica, sans-serif; fill: #111827; }
+      .object-text { font: 13px Arial, Helvetica, sans-serif; fill: #334155; }
+      .operation-title { font: 700 13px Arial, Helvetica, sans-serif; fill: #111827; }
+      .operation-text { font: 12px Arial, Helvetica, sans-serif; fill: #334155; }
+      .arrow { stroke: #334155; stroke-width: 1.4; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1220" height="900"/>
+
+  <g transform="translate(30,30)">
+    <rect class="panel-left" x="0" y="0" width="565" height="840" rx="8"/>
+    <text class="header" x="282.5" y="36" text-anchor="middle">Point-cloud / scc2020 Bifiltration Workflow</text>
+    <text class="subtitle" x="282.5" y="62" text-anchor="middle">Input: geometric data or complete sparse chain complex</text>
+
+    <g transform="translate(35,112)">
+      <rect class="object-left" x="0" y="0" width="495" height="78" rx="8"/>
+      <text class="object-title" x="247.5" y="24" text-anchor="middle">Input object</text>
+      <text class="object-text" x="247.5" y="49" text-anchor="middle">point-cloud txt: (x, y, f) or (x, y, z, f) format (visualization available);</text>
+      <text class="object-text" x="247.5" y="67" text-anchor="middle">or complete scc2020 chain complex</text>
+    </g>
+    <line class="arrow" x1="282.5" y1="190" x2="282.5" y2="292"/>
+    <g transform="translate(85,222)">
+      <polygon class="operation-left" points="0,23 23,0 372,0 395,23 372,46 23,46"/>
+      <text class="operation-title" x="197.5" y="20" text-anchor="middle">build or import bifiltration</text>
+      <text class="operation-text" x="197.5" y="36" text-anchor="middle">function-Rips / function-Alpha / imported scc2020</text>
+    </g>
+
+    <g transform="translate(35,292)">
+      <rect class="object-left" x="0" y="0" width="495" height="78" rx="8"/>
+      <text class="object-title" x="247.5" y="24" text-anchor="middle">Bifiltered chain complex object</text>
+      <text class="object-text" x="247.5" y="48" text-anchor="middle">complete scc2020 chain complex</text>
+      <text class="object-text" x="247.5" y="66" text-anchor="middle">(bifiltration visualization available)</text>
+    </g>
+    <line class="arrow" x1="282.5" y1="370" x2="282.5" y2="486"/>
+    <g transform="translate(67,408)">
+      <polygon class="operation-left" points="0,26 26,0 435,0 461,26 435,52 26,52"/>
+      <text class="operation-title" x="230.5" y="21" text-anchor="middle">finite-grid resolution workflow</text>
+      <text class="operation-text" x="230.5" y="39" text-anchor="middle">parameter compression + 2pac subroutine + finite-grid extraction</text>
+    </g>
+
+    <g transform="translate(35,486)">
+      <rect class="object-left" x="0" y="0" width="495" height="92" rx="8"/>
+      <text class="object-title" x="247.5" y="24" text-anchor="middle">Minimal finite-grid (co)resolutions</text>
+      <text class="object-text" x="247.5" y="48" text-anchor="middle">minimal projective resolutions</text>
+      <text class="object-text" x="247.5" y="68" text-anchor="middle">minimal injective coresolutions</text>
+      <text class="object-text" x="247.5" y="86" text-anchor="middle">of persistent homology over finite grids</text>
+    </g>
+    <line class="arrow" x1="282.5" y1="578" x2="282.5" y2="694"/>
+    <g transform="translate(85,616)">
+      <polygon class="operation-left" points="0,26 26,0 369,0 395,26 369,52 26,52"/>
+      <text class="operation-title" x="197.5" y="21" text-anchor="middle">compute invariants using formulas [2]</text>
+      <text class="operation-text" x="197.5" y="39" text-anchor="middle">candidate filtering, invariants computing</text>
+    </g>
+
+    <g transform="translate(35,694)">
+      <rect class="object-left" x="0" y="0" width="495" height="116" rx="8"/>
+      <text class="object-title" x="247.5" y="24" text-anchor="middle">Output objects</text>
+      <text class="object-text" x="247.5" y="49" text-anchor="middle">Invariants: interval multiplicities (implemented),</text>
+      <text class="object-text" x="247.5" y="69" text-anchor="middle">interval ranks, signed interval multiplicities, relative Betti numbers (todo).</text>
+      <text class="object-text" x="247.5" y="89" text-anchor="middle">Visualizations: connected persistence diagrams [6] (for 2-row bifiltrations)</text>
+      <text class="object-text" x="247.5" y="109" text-anchor="middle">and parameter-space interval summaries (for general finite grid bifiltrations)</text>
+    </g>
+  </g>
+
+  <g transform="translate(625,30)">
+    <rect class="panel-right" x="0" y="0" width="565" height="840" rx="8"/>
+    <text class="header" x="282.5" y="36" text-anchor="middle">Representation Workflow</text>
+    <text class="subtitle" x="282.5" y="62" text-anchor="middle">Input: persistence module as a finite-grid representation</text>
+
+    <g transform="translate(35,170)">
+      <rect class="object-right" x="0" y="0" width="495" height="110" rx="8"/>
+      <text class="object-title" x="247.5" y="25" text-anchor="middle">Input object</text>
+      <text class="object-text" x="247.5" y="52" text-anchor="middle">finite n-grid representation / persistence module</text>
+      <text class="object-text" x="247.5" y="74" text-anchor="middle">given by vector spaces and linear maps</text>
+      <text class="object-text" x="247.5" y="96" text-anchor="middle">over the chosen grid poset</text>
+    </g>
+    <line class="arrow" x1="282.5" y1="280" x2="282.5" y2="510"/>
+    <g transform="translate(67,356)">
+      <polygon class="operation-right" points="0,23 23,0 438,0 461,23 438,46 23,46"/>
+      <text class="operation-title" x="230.5" y="28" text-anchor="middle">compute invariants using formulas [2, 3]</text>
+    </g>
+
+    <g transform="translate(35,510)">
+      <rect class="object-right" x="0" y="0" width="495" height="170" rx="8"/>
+      <text class="object-title" x="247.5" y="25" text-anchor="middle">Output objects</text>
+      <text class="object-text" x="247.5" y="54" text-anchor="middle">Invariants: interval ranks under total (tot)</text>
+      <text class="object-text" x="247.5" y="76" text-anchor="middle">or source-sink (ss) compression systems,</text>
+      <text class="object-text" x="247.5" y="98" text-anchor="middle">signed interval multiplicities / interval replacements,</text>
+      <text class="object-text" x="247.5" y="120" text-anchor="middle">interval multiplicities.</text>
+      <text class="object-text" x="247.5" y="142" text-anchor="middle">Visualizations: connected persistence diagrams [6] (for ladder representations)</text>
+    </g>
+  </g>
+</svg>
