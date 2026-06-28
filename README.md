@@ -240,9 +240,60 @@ Function-Alpha point-cloud conversion is optional and requires GUDHI:
 pip install gudhi
 ```
 
-For the full finite-grid bifiltration pipeline, install `2pac` separately
-according to its upstream instructions.  This repository assumes a user-managed
-installation of `2pac`; it does not install it automatically.
+### Installing and Checking `2pac`
+
+`2pac` is needed only when you want to recompute finite-grid projective
+resolutions or injective coresolutions from point-cloud or `scc2020`
+filtration inputs.  It is not needed for the representation-level interval
+replacement notebooks, and it is not needed just to load or visualize the
+precomputed example outputs already stored in `outputs/`.
+
+Install `2pac` separately according to the upstream `2pac` instructions.  This
+repository assumes a user-managed installation; it does not install, vendor, or
+redistribute `2pac`.
+
+The executable does not need to live inside the MPIntInv repository.  The
+recommended setup is to make an executable named `2pac` available on your
+shell `PATH`, for example in one of the following locations:
+
+```text
+/usr/local/bin/2pac
+~/bin/2pac
+/path/to/venv/bin/2pac
+/path/to/conda/env/bin/2pac
+```
+
+After installation, check that your shell can find it:
+
+```bash
+which 2pac
+2pac --help
+```
+
+If `which 2pac` prints a path and `2pac --help` runs, MPIntInv's default
+configuration can call it with `twopac_binary="2pac"`.
+
+If you prefer not to modify `PATH`, pass the executable path explicitly in
+scripts or notebooks:
+
+```python
+twopac_binary = "/absolute/path/to/2pac"
+```
+
+For example:
+
+```python
+from finite_grid_cone import run_finite_grid_cone_workflow
+
+result = run_finite_grid_cone_workflow(
+    "data/chain_complex_scc2020/two_circles_200pts_knn_function.alpha.scc2020.txt",
+    input_kind="scc2020",
+    output_dir="outputs/resolution_computation",
+    output_prefix="two_circles_200pts_knn_function.alpha.scc2020",
+    twopac_binary=twopac_binary,
+    target_dim=1,
+)
+```
 
 After cloning or downloading this repository, keep the Python files and
 notebooks in the same project directory so the notebooks can import the local
@@ -272,7 +323,8 @@ Then use the presentation/resolution notebooks to compute finite-grid
 minimal projective resolutions and minimal injective coresolutions, and use
 `interval_multiplicities_computations_filtration_2row.ipynb` or
 `interval_multiplicities_computations_filtration_large_grid.ipynb` to compute
-interval multiplicities **[2]**.
+interval multiplicities **[2]**.  The resolution step requires a working
+`2pac` executable as described in the installation section above.
 
 ### Imported `scc2020` input
 
@@ -281,7 +333,9 @@ example `data/chain_complex_scc2020/`, and point the presentation and
 multiplicity notebooks to that file.  The finite-grid workflow expects complete
 `scc2020` files, including the final `C_0` grade block.  The coefficient field
 can be any field supported by the installed `2pac` executable and by the input
-file format used in the workflow.
+file format used in the workflow.  Recomputing resolutions from the imported
+chain complex requires `2pac`; loading the precomputed example resolution and
+multiplicity outputs under `outputs/` does not.
 
 ## Repository Guide
 
