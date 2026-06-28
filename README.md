@@ -162,6 +162,55 @@ The current implementation includes:
   cross-checking;
 - comparison of the projective and injective multiplicity results.
 
+### Example Timings
+
+The following timings illustrate the interval multiplicity stage on the
+precomputed finite-grid resolution and coresolution files stored in this
+repository.  They do not include point-cloud conversion, the external `2pac`
+resolution/coresolution computation, file plotting, or notebook rendering.
+Each entry reports
+
+```text
+interval candidate filtering time + interval multiplicity formula time
+```
+
+The candidate-filtering time includes the layer-support computation required by
+the selected socle/radical filters.  The timings were measured in a single local
+run on 2026-06-29 on a Mac Studio with an Apple M1 Max chip, 10 CPU cores, 32 GB
+memory, and macOS 26.4.1.
+
+Benchmark data:
+
+- `two_circles_200pts_knn_function.alpha.scc2020`
+  - point-cloud data:
+    `data/pointcloud_examples/two_circles_200pts_knn_function.txt`
+  - `scc2020` chain complex:
+    `data/chain_complex_scc2020/two_circles_200pts_knn_function.alpha.scc2020.txt`
+  - finite-grid projective resolution:
+    `outputs/resolution_computation/two_circles_200pts_knn_function.alpha.scc2020.finite_grid.projective_resolution.txt`
+  - finite-grid injective coresolution:
+    `outputs/resolution_computation/two_circles_200pts_knn_function.alpha.scc2020.finite_grid.injective_coresolution.txt`
+  - compressed 2D grid: `643 x 200`, with grades from `(0, 0)` to `(642, 199)`
+- `chromatic_four_circles_500pts_function.alpha.scc2020`
+  - point-cloud data:
+    `data/pointcloud_examples/chromatic_four_circles_500pts_function.txt`
+  - `scc2020` chain complex:
+    `data/chain_complex_scc2020/chromatic_four_circles_500pts_function.alpha.scc2020.txt`
+  - finite-grid projective resolution:
+    `outputs/resolution_computation/chromatic_four_circles_500pts_function.alpha.scc2020.finite_grid.projective_resolution.txt`
+  - finite-grid injective coresolution:
+    `outputs/resolution_computation/chromatic_four_circles_500pts_function.alpha.scc2020.finite_grid.injective_coresolution.txt`
+  - compressed 2D grid: `1870 x 2`, with grades from `(0, 0)` to `(1869, 1)`
+
+| Data set | Filter configuration | Candidate filtering | Formula evaluation | Generated candidates | Retained candidates | Nonzero multiplicities |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Two circles | Socle-layer filter enabled | 5.0s | 0.02s | 3,471 | 76 | 63 |
+| Two circles | Socle-layer + radical-layer filters enabled | 17.0s | 0.02s | 3,471 | 70 | 63 |
+| Two circles | Socle-layer filter disabled | 0.2s | 0.06s | 3,471 | 153 | 63 |
+| Chromatic four circles | Socle-layer filter enabled | 5m21.5s | 17.0s | 704,810 | 7,991 | 393 |
+| Chromatic four circles | Socle-layer + radical-layer filters enabled | 4m45.0s | 2.6s | 704,810 | 1,530 | 393 |
+| Chromatic four circles | Socle-layer filter disabled | 45.5s | 12m52.9s | 704,810 | 333,146 | 393 |
+
 The following filtration-based invariants are planned future work:
 
 - interval ranks;
